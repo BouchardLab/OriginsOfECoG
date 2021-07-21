@@ -1,0 +1,3 @@
+from bmtk.builder.networks import NetworkBuilder
+
+net = NetworkBuilder("cortical-column")

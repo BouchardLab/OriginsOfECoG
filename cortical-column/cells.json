@@ -1,0 +1,2596 @@
+{
+    "L1_DAC": {
+        "bNAC": [
+            {
+                "model_directory": "L1_DAC_bNAC219_1", 
+                "model_template": "BBP:bNAC219_L1_DAC_ec2fc5f0de", 
+                "morphology": "sm090918b1-3_idA_-_Scale_x1.000_y1.025_z1.000.asc"
+            }, 
+            {
+                "model_directory": "L1_DAC_bNAC219_2", 
+                "model_template": "BBP:bNAC219_L1_DAC_0d58fdf14a", 
+                "morphology": "C270106C_-_Scale_x1.000_y0.950_z1.000_-_Clone_0.asc"
+            }
+        ], 
+        "cNAC": [
+            {
+                "model_directory": "L1_DAC_cNAC187_1", 
+                "model_template": "BBP:cNAC187_L1_DAC_1e259ec3b0", 
+                "morphology": "sm080930a1_-_Scale_x1.000_y1.025_z1.000_-_Clone_0.asc"
+            }, 
+            {
+                "model_directory": "L1_DAC_cNAC187_2", 
+                "model_template": "BBP:cNAC187_L1_DAC_a4cb1c245c", 
+                "morphology": "C270106C_-_Clone_0.asc"
+            }
+        ]
+    }, 
+    "L1_DLAC": {
+        "cNAC": [
+            {
+                "model_directory": "L1_DLAC_cNAC187_1", 
+                "model_template": "BBP:cNAC187_L1_DLAC_d80e9f2875", 
+                "morphology": "sm080722b1_-_Scale_x1.000_y0.950_z1.000.asc"
+            }, 
+            {
+                "model_directory": "L1_DLAC_cNAC187_2", 
+                "model_template": "BBP:cNAC187_L1_DLAC_612b4ae64f", 
+                "morphology": "sm080904a1_-_Scale_x1.000_y1.025_z1.000_-_Clone_0.asc"
+            }
+        ]
+    }, 
+    "L1_HAC": {
+        "bNAC": [
+            {
+                "model_directory": "L1_HAC_bNAC219_2", 
+                "model_template": "BBP:bNAC219_L1_HAC_f8c9772d9d", 
+                "morphology": "sm081119a6.asc"
+            }, 
+            {
+                "model_directory": "L1_HAC_bNAC219_1", 
+                "model_template": "BBP:bNAC219_L1_HAC_369e749269", 
+                "morphology": "sm080905b1.asc"
+            }
+        ], 
+        "cIR": [
+            {
+                "model_directory": "L1_HAC_cIR216_2", 
+                "model_template": "BBP:cIR216_L1_HAC_cc210b8244", 
+                "morphology": "sm080902a3-1.asc"
+            }, 
+            {
+                "model_directory": "L1_HAC_cIR216_1", 
+                "model_template": "BBP:cIR216_L1_HAC_84f0f8f321", 
+                "morphology": "sm090227a1-2_idA.asc"
+            }
+        ], 
+        "cNAC": [
+            {
+                "model_directory": "L1_HAC_cNAC187_1", 
+                "model_template": "BBP:cNAC187_L1_HAC_f8c9772d9d", 
+                "morphology": "sm081119a6.asc"
+            }, 
+            {
+                "model_directory": "L1_HAC_cNAC187_2", 
+                "model_template": "BBP:cNAC187_L1_HAC_cc210b8244", 
+                "morphology": "sm080902a3-1.asc"
+            }
+        ]
+    }, 
+    "L1_NGC-DA": {
+        "bNAC": [
+            {
+                "model_directory": "L1_NGC-DA_bNAC219_1", 
+                "model_template": "BBP:bNAC219_L1_NGCDA_095997ce92", 
+                "morphology": "C060106B_-_Scale_x1.000_y0.950_z1.000_-_Clone_0.asc"
+            }, 
+            {
+                "model_directory": "L1_NGC-DA_bNAC219_2", 
+                "model_template": "BBP:bNAC219_L1_NGCDA_e7cec642c3", 
+                "morphology": "sm080722b2_-_Scale_x1.000_y1.050_z1.000.asc"
+            }
+        ], 
+        "cAC": [
+            {
+                "model_directory": "L1_NGC-DA_cACint209_2", 
+                "model_template": "BBP:cACint209_L1_NGCDA_d8569cb244", 
+                "morphology": "sm100408a1_idB_-_Clone_1.asc"
+            }, 
+            {
+                "model_directory": "L1_NGC-DA_cACint209_1", 
+                "model_template": "BBP:cACint209_L1_NGCDA_3f6ea7fdea", 
+                "morphology": "C060106B_-_Scale_x1.000_y0.975_z1.000.asc"
+            }
+        ], 
+        "cNAC": [
+            {
+                "model_directory": "L1_NGC-DA_cNAC187_1", 
+                "model_template": "BBP:cNAC187_L1_NGCDA_c1b837d894", 
+                "morphology": "sm080905a1_-_Clone_1.asc"
+            }, 
+            {
+                "model_directory": "L1_NGC-DA_cNAC187_2", 
+                "model_template": "BBP:cNAC187_L1_NGCDA_9c428321ae", 
+                "morphology": "sm081010a5-1_-_Scale_x1.000_y0.950_z1.000_-_Clone_0.asc"
+            }
+        ], 
+        "cSTUT": [
+            {
+                "model_directory": "L1_NGC-DA_cSTUT189_2", 
+                "model_template": "BBP:cSTUT189_L1_NGCDA_3d9c976fde", 
+                "morphology": "sm100408a1_idB_-_Scale_x1.000_y0.975_z1.000_-_Clone_1.asc"
+            }, 
+            {
+                "model_directory": "L1_NGC-DA_cSTUT189_1", 
+                "model_template": "BBP:cSTUT189_L1_NGCDA_daa2d6b6a9", 
+                "morphology": "C060106B_-_Scale_x1.000_y0.975_z1.000_-_Clone_1.asc"
+            }
+        ]
+    }, 
+    "L1_NGC-SA": {
+        "cNAC": [
+            {
+                "model_directory": "L1_NGC-SA_cNAC187_2", 
+                "model_template": "BBP:cNAC187_L1_NGCSA_569d800dfe", 
+                "morphology": "sm080902a3-3_-_Scale_x1.000_y0.950_z1.000.asc"
+            }, 
+            {
+                "model_directory": "L1_NGC-SA_cNAC187_1", 
+                "model_template": "BBP:cNAC187_L1_NGCSA_51e1d4ecd6", 
+                "morphology": "sm080723a3-2_-_Scale_x1.000_y1.025_z1.000.asc"
+            }
+        ]
+    }, 
+    "L1_SLAC": {
+        "bNAC": [
+            {
+                "model_directory": "L1_SLAC_bNAC219_1", 
+                "model_template": "BBP:bNAC219_L1_SLAC_9f043bb71a", 
+                "morphology": "C010306C_-_Scale_x1.000_y1.050_z1.000_-_Clone_0.asc"
+            }, 
+            {
+                "model_directory": "L1_SLAC_bNAC219_2", 
+                "model_template": "BBP:bNAC219_L1_SLAC_d22d584760", 
+                "morphology": "C010306G_-_Scale_x1.000_y1.025_z1.000.asc"
+            }
+        ], 
+        "cAC": [
+            {
+                "model_directory": "L1_SLAC_cACint209_1", 
+                "model_template": "BBP:cACint209_L1_SLAC_9fb2ec760b", 
+                "morphology": "C010306C_-_Scale_x1.000_y1.050_z1.000.asc"
+            }, 
+            {
+                "model_directory": "L1_SLAC_cACint209_2", 
+                "model_template": "BBP:cACint209_L1_SLAC_76ffc1f69e", 
+                "morphology": "sm080529a2-2_-_Scale_x1.000_y1.025_z1.000.asc"
+            }
+        ], 
+        "cNAC": [
+            {
+                "model_directory": "L1_SLAC_cNAC187_1", 
+                "model_template": "BBP:cNAC187_L1_SLAC_26e7460577", 
+                "morphology": "C010306C_-_Scale_x1.000_y0.950_z1.000.asc"
+            }, 
+            {
+                "model_directory": "L1_SLAC_cNAC187_2", 
+                "model_template": "BBP:cNAC187_L1_SLAC_3759bf3d94", 
+                "morphology": "C010306G_-_Scale_x1.000_y1.050_z1.000.asc"
+            }
+        ]
+    }, 
+    "L23_BP": {
+        "bAC": [
+            {
+                "model_directory": "L23_BP_bAC217_2", 
+                "model_template": "BBP:bAC217_L23_BP_4652c9a7e1", 
+                "morphology": "C230998A-I3_-_Scale_x1.000_y1.025_z1.000_-_Clone_26.asc"
+            }, 
+            {
+                "model_directory": "L23_BP_bAC217_1", 
+                "model_template": "BBP:bAC217_L23_BP_2004171a4c", 
+                "morphology": "C230998A-I3_-_Scale_x1.000_y1.050_z1.000_-_Clone_46.asc"
+            }
+        ], 
+        "bIR": [
+            {
+                "model_directory": "L23_BP_bIR215_1", 
+                "model_template": "BBP:bIR215_L23_BP_ab6ff08482", 
+                "morphology": "C230998A-I3_-_Scale_x1.000_y1.050_z1.000_-_Clone_53.asc"
+            }, 
+            {
+                "model_directory": "L23_BP_bIR215_2", 
+                "model_template": "BBP:bIR215_L23_BP_a4d3f66d76", 
+                "morphology": "C230998A-I3_-_Scale_x1.000_y0.950_z1.000_-_Clone_26.asc"
+            }
+        ], 
+        "bNAC": [
+            {
+                "model_directory": "L23_BP_bNAC219_1", 
+                "model_template": "BBP:bNAC219_L23_BP_40adbb9f96", 
+                "morphology": "C230998A-I3_-_Scale_x1.000_y1.025_z1.000_-_Clone_33.asc"
+            }, 
+            {
+                "model_directory": "L23_BP_bNAC219_2", 
+                "model_template": "BBP:bNAC219_L23_BP_e8c88c2686", 
+                "morphology": "C230998A-I3_-_Scale_x1.000_y0.950_z1.000_-_Clone_47.asc"
+            }
+        ], 
+        "cAC": [
+            {
+                "model_directory": "L23_BP_cACint209_1", 
+                "model_template": "BBP:cACint209_L23_BP_4c3a004bfc", 
+                "morphology": "C230998A-I3_-_Scale_x1.000_y0.975_z1.000_-_Clone_29.asc"
+            }, 
+            {
+                "model_directory": "L23_BP_cACint209_2", 
+                "model_template": "BBP:cACint209_L23_BP_ca85cefc69", 
+                "morphology": "C230998A-I3_-_Clone_9.asc"
+            }
+        ], 
+        "cNAC": [
+            {
+                "model_directory": "L23_BP_cNAC187_1", 
+                "model_template": "BBP:cNAC187_L23_BP_2004171a4c", 
+                "morphology": "C230998A-I3_-_Scale_x1.000_y1.050_z1.000_-_Clone_46.asc"
+            }, 
+            {
+                "model_directory": "L23_BP_cNAC187_2", 
+                "model_template": "BBP:cNAC187_L23_BP_911ebd8254", 
+                "morphology": "C230998A-I3_-_Scale_x1.000_y1.050_z1.000_-_Clone_39.asc"
+            }
+        ], 
+        "dSTUT": [
+            {
+                "model_directory": "L23_BP_dSTUT214_1", 
+                "model_template": "BBP:dSTUT214_L23_BP_5a18c05889", 
+                "morphology": "C230998A-I3_-_Scale_x1.000_y0.975_z1.000_-_Clone_28.asc"
+            }, 
+            {
+                "model_directory": "L23_BP_dSTUT214_2", 
+                "model_template": "BBP:dSTUT214_L23_BP_f03ecc7752", 
+                "morphology": "C230998A-I3_-_Clone_16.asc"
+            }
+        ]
+    }, 
+    "L23_BTC": {
+        "bAC": [
+            {
+                "model_directory": "L23_BTC_bAC217_1", 
+                "model_template": "BBP:bAC217_L23_BTC_e561810e0d", 
+                "morphology": "C190898A-I1_-_Clone_5.asc"
+            }, 
+            {
+                "model_directory": "L23_BTC_bAC217_2", 
+                "model_template": "BBP:bAC217_L23_BTC_65225ca4f8", 
+                "morphology": "C200199B-I3_-_Scale_x1.000_y1.050_z1.000_-_Clone_7.asc"
+            }
+        ], 
+        "bIR": [
+            {
+                "model_directory": "L23_BTC_bIR215_1", 
+                "model_template": "BBP:bIR215_L23_BTC_fcf6c1f59c", 
+                "morphology": "mtC031100A_idB_-_Scale_x1.000_y1.025_z1.000_-_Clone_0.asc"
+            }, 
+            {
+                "model_directory": "L23_BTC_bIR215_2", 
+                "model_template": "BBP:bIR215_L23_BTC_e02ed2d076", 
+                "morphology": "C200199B-I3_-_Scale_x1.000_y0.950_z1.000.asc"
+            }
+        ], 
+        "bNAC": [
+            {
+                "model_directory": "L23_BTC_bNAC219_2", 
+                "model_template": "BBP:bNAC219_L23_BTC_38a5da4025", 
+                "morphology": "C200199B-I3_-_Scale_x1.000_y0.975_z1.000_-_Clone_5.asc"
+            }, 
+            {
+                "model_directory": "L23_BTC_bNAC219_1", 
+                "model_template": "BBP:bNAC219_L23_BTC_07c7c10a30", 
+                "morphology": "mtC031100A_idB_-_Scale_x1.000_y1.025_z1.000_-_Clone_2.asc"
+            }
+        ], 
+        "cAC": [
+            {
+                "model_directory": "L23_BTC_cACint209_2", 
+                "model_template": "BBP:cACint209_L23_BTC_3ac7d39218", 
+                "morphology": "C200199B-I3_-_Scale_x1.000_y1.025_z1.000_-_Clone_3.asc"
+            }, 
+            {
+                "model_directory": "L23_BTC_cACint209_1", 
+                "model_template": "BBP:cACint209_L23_BTC_c745595fbe", 
+                "morphology": "mtC031100A_idB_-_Scale_x1.000_y1.050_z1.000.asc"
+            }
+        ], 
+        "cNAC": [
+            {
+                "model_directory": "L23_BTC_cNAC187_2", 
+                "model_template": "BBP:cNAC187_L23_BTC_13a502998f", 
+                "morphology": "C200199B-I3_-_Scale_x1.000_y0.950_z1.000_-_Clone_1.asc"
+            }, 
+            {
+                "model_directory": "L23_BTC_cNAC187_1", 
+                "model_template": "BBP:cNAC187_L23_BTC_9902cd4960", 
+                "morphology": "C190898A-I1_-_Scale_x1.000_y0.950_z1.000_-_Clone_5.asc"
+            }
+        ]
+    }, 
+    "L23_ChC": {
+        "cAC": [
+            {
+                "model_directory": "L23_ChC_cACint209_2", 
+                "model_template": "BBP:cACint209_L23_ChC_a7e068ee2e", 
+                "morphology": "mtC050800D_idD_-_Scale_x1.000_y1.025_z1.000_-_Clone_2.asc"
+            }, 
+            {
+                "model_directory": "L23_ChC_cACint209_1", 
+                "model_template": "BBP:cACint209_L23_ChC_87b9dd7336", 
+                "morphology": "C080400A3_-_Scale_x1.000_y0.950_z1.000.asc"
+            }
+        ], 
+        "cNAC": [
+            {
+                "model_directory": "L23_ChC_cNAC187_1", 
+                "model_template": "BBP:cNAC187_L23_ChC_88b9ee8f5d", 
+                "morphology": "C080400A3_-_Scale_x1.000_y1.050_z1.000_-_Clone_2.asc"
+            }, 
+            {
+                "model_directory": "L23_ChC_cNAC187_2", 
+                "model_template": "BBP:cNAC187_L23_ChC_85582ca6d2", 
+                "morphology": "mtC050800D_idD_-_Scale_x1.000_y1.025_z1.000.asc"
+            }
+        ], 
+        "dNAC": [
+            {
+                "model_directory": "L23_ChC_dNAC222_1", 
+                "model_template": "BBP:dNAC222_L23_ChC_97f4d271eb", 
+                "morphology": "C080400A3_-_Scale_x1.000_y1.050_z1.000_-_Clone_3.asc"
+            }, 
+            {
+                "model_directory": "L23_ChC_dNAC222_2", 
+                "model_template": "BBP:dNAC222_L23_ChC_9b0e709c9c", 
+                "morphology": "mtC050800D_idD_-_Clone_4.asc"
+            }
+        ]
+    }, 
+    "L23_DBC": {
+        "bAC": [
+            {
+                "model_directory": "L23_DBC_bAC217_1", 
+                "model_template": "BBP:bAC217_L23_DBC_393cc5cca5", 
+                "morphology": "C060400B2_-_Scale_x1.000_y1.025_z1.000_-_Clone_0.asc"
+            }, 
+            {
+                "model_directory": "L23_DBC_bAC217_2", 
+                "model_template": "BBP:bAC217_L23_DBC_e5ab405051", 
+                "morphology": "C080400C2_-_Scale_x1.000_y0.950_z1.000_-_Clone_4.asc"
+            }
+        ], 
+        "bIR": [
+            {
+                "model_directory": "L23_DBC_bIR215_1", 
+                "model_template": "BBP:bIR215_L23_DBC_56fd12fad5", 
+                "morphology": "C060400B2_-_Scale_x1.000_y1.025_z1.000_-_Clone_2.asc"
+            }, 
+            {
+                "model_directory": "L23_DBC_bIR215_2", 
+                "model_template": "BBP:bIR215_L23_DBC_b0d0b3615e", 
+                "morphology": "C080400C2_-_Clone_2.asc"
+            }
+        ], 
+        "bNAC": [
+            {
+                "model_directory": "L23_DBC_bNAC219_2", 
+                "model_template": "BBP:bNAC219_L23_DBC_8b03af6e83", 
+                "morphology": "C080400C2_-_Clone_0.asc"
+            }, 
+            {
+                "model_directory": "L23_DBC_bNAC219_1", 
+                "model_template": "BBP:bNAC219_L23_DBC_f7a3d54a01", 
+                "morphology": "C060400B2_-_Scale_x1.000_y1.050_z1.000_-_Clone_1.asc"
+            }
+        ], 
+        "cAC": [
+            {
+                "model_directory": "L23_DBC_cACint209_2", 
+                "model_template": "BBP:cACint209_L23_DBC_4041312e0d", 
+                "morphology": "C080400C2_-_Scale_x1.000_y0.975_z1.000_-_Clone_0.asc"
+            }, 
+            {
+                "model_directory": "L23_DBC_cACint209_1", 
+                "model_template": "BBP:cACint209_L23_DBC_4114c4c36c", 
+                "morphology": "C060400B2_-_Scale_x1.000_y1.050_z1.000_-_Clone_3.asc"
+            }
+        ]
+    }, 
+    "L23_LBC": {
+        "bAC": [
+            {
+                "model_directory": "L23_LBC_bAC217_1", 
+                "model_template": "BBP:bAC217_L23_LBC_72e65525d3", 
+                "morphology": "sm110125a1-3_idC_-_Clone_2.asc"
+            }, 
+            {
+                "model_directory": "L23_LBC_bAC217_2", 
+                "model_template": "BBP:bAC217_L23_LBC_361cffb4c6", 
+                "morphology": "C050600B1_-_Scale_x1.000_y0.950_z1.000_-_Clone_1.asc"
+            }
+        ], 
+        "bNAC": [
+            {
+                "model_directory": "L23_LBC_bNAC219_2", 
+                "model_template": "BBP:bNAC219_L23_LBC_91044b50b3", 
+                "morphology": "C140300B-I2_-_Clone_0.asc"
+            }, 
+            {
+                "model_directory": "L23_LBC_bNAC219_1", 
+                "model_template": "BBP:bNAC219_L23_LBC_fe2122c75c", 
+                "morphology": "C050398B-I4_-_Scale_x1.000_y1.025_z1.000.asc"
+            }
+        ], 
+        "cAC": [
+            {
+                "model_directory": "L23_LBC_cACint209_1", 
+                "model_template": "BBP:cACint209_L23_LBC_d5fa8128ae", 
+                "morphology": "C050398B-I4_-_Scale_x1.000_y0.950_z1.000_-_Clone_1.asc"
+            }, 
+            {
+                "model_directory": "L23_LBC_cACint209_2", 
+                "model_template": "BBP:cACint209_L23_LBC_c6138544ab", 
+                "morphology": "C050600B1_-_Scale_x1.000_y0.950_z1.000_-_Clone_2.asc"
+            }
+        ], 
+        "cNAC": [
+            {
+                "model_directory": "L23_LBC_cNAC187_1", 
+                "model_template": "BBP:cNAC187_L23_LBC_df15689e81", 
+                "morphology": "C050398B-I4_-_Clone_3.asc"
+            }, 
+            {
+                "model_directory": "L23_LBC_cNAC187_2", 
+                "model_template": "BBP:cNAC187_L23_LBC_95f37b59ec", 
+                "morphology": "C250500A-I4_-_Scale_x1.000_y1.025_z1.000_-_Clone_5.asc"
+            }
+        ], 
+        "cSTUT": [
+            {
+                "model_directory": "L23_LBC_cSTUT189_2", 
+                "model_template": "BBP:cSTUT189_L23_LBC_91044b50b3", 
+                "morphology": "C140300B-I2_-_Clone_0.asc"
+            }, 
+            {
+                "model_directory": "L23_LBC_cSTUT189_1", 
+                "model_template": "BBP:cSTUT189_L23_LBC_e6e8f83407", 
+                "morphology": "C050398B-I4_-_Scale_x1.000_y1.050_z1.000.asc"
+            }
+        ], 
+        "dNAC": [
+            {
+                "model_directory": "L23_LBC_dNAC222_2", 
+                "model_template": "BBP:dNAC222_L23_LBC_3872d55b42", 
+                "morphology": "C140300B-I2_-_Scale_x1.000_y1.025_z1.000_-_Clone_2.asc"
+            }, 
+            {
+                "model_directory": "L23_LBC_dNAC222_1", 
+                "model_template": "BBP:dNAC222_L23_LBC_df15689e81", 
+                "morphology": "C050398B-I4_-_Clone_3.asc"
+            }
+        ]
+    }, 
+    "L23_MC": {
+        "bAC": [
+            {
+                "model_directory": "L23_MC_bAC217_1", 
+                "model_template": "BBP:bAC217_L23_MC_40be3bf0e8", 
+                "morphology": "C050600B2_-_Scale_x1.000_y0.975_z1.000.asc"
+            }, 
+            {
+                "model_directory": "L23_MC_bAC217_2", 
+                "model_template": "BBP:bAC217_L23_MC_44b474bb8f", 
+                "morphology": "C070600B2.asc"
+            }
+        ], 
+        "bNAC": [
+            {
+                "model_directory": "L23_MC_bNAC219_2", 
+                "model_template": "BBP:bNAC219_L23_MC_44b474bb8f", 
+                "morphology": "C070600B2.asc"
+            }, 
+            {
+                "model_directory": "L23_MC_bNAC219_1", 
+                "model_template": "BBP:bNAC219_L23_MC_b7a2c9d0ae", 
+                "morphology": "C260199A-I3.asc"
+            }
+        ], 
+        "cAC": [
+            {
+                "model_directory": "L23_MC_cACint209_1", 
+                "model_template": "BBP:cACint209_L23_MC_940ffcbb27", 
+                "morphology": "C310106D.asc"
+            }, 
+            {
+                "model_directory": "L23_MC_cACint209_2", 
+                "model_template": "BBP:cACint209_L23_MC_3303d0ff68", 
+                "morphology": "C061000A3.asc"
+            }
+        ], 
+        "cNAC": [
+            {
+                "model_directory": "L23_MC_cNAC187_2", 
+                "model_template": "BBP:cNAC187_L23_MC_940ffcbb27", 
+                "morphology": "C310106D.asc"
+            }, 
+            {
+                "model_directory": "L23_MC_cNAC187_1", 
+                "model_template": "BBP:cNAC187_L23_MC_2c0a7badf4", 
+                "morphology": "C310897A-I1.asc"
+            }
+        ], 
+        "dNAC": [
+            {
+                "model_directory": "L23_MC_dNAC222_2", 
+                "model_template": "BBP:dNAC222_L23_MC_940ffcbb27", 
+                "morphology": "C310106D.asc"
+            }, 
+            {
+                "model_directory": "L23_MC_dNAC222_1", 
+                "model_template": "BBP:dNAC222_L23_MC_1490f15199", 
+                "morphology": "C251197A-I3.asc"
+            }
+        ]
+    }, 
+    "L23_NBC": {
+        "bAC": [
+            {
+                "model_directory": "L23_NBC_bAC217_2", 
+                "model_template": "BBP:bAC217_L23_NBC_dc5e34b933", 
+                "morphology": "C040600A2_-_Scale_x1.000_y0.950_z1.000_-_Clone_7.asc"
+            }, 
+            {
+                "model_directory": "L23_NBC_bAC217_1", 
+                "model_template": "BBP:bAC217_L23_NBC_711b6a838e", 
+                "morphology": "C020200-16_-_Scale_x1.000_y1.050_z1.000_-_Clone_14.asc"
+            }
+        ], 
+        "bNAC": [
+            {
+                "model_directory": "L23_NBC_bNAC219_1", 
+                "model_template": "BBP:bNAC219_L23_NBC_01d2e3caa6", 
+                "morphology": "vd100621_idB_-_Scale_x1.000_y0.950_z1.000_-_Clone_8.asc"
+            }, 
+            {
+                "model_directory": "L23_NBC_bNAC219_2", 
+                "model_template": "BBP:bNAC219_L23_NBC_6561f8d865", 
+                "morphology": "C080300B2_-_Scale_x1.000_y1.025_z1.000.asc"
+            }
+        ], 
+        "cAC": [
+            {
+                "model_directory": "L23_NBC_cACint209_2", 
+                "model_template": "BBP:cACint209_L23_NBC_ad562fc72b", 
+                "morphology": "C280998A-I2_-_Scale_x1.000_y1.050_z1.000_-_Clone_8.asc"
+            }, 
+            {
+                "model_directory": "L23_NBC_cACint209_1", 
+                "model_template": "BBP:cACint209_L23_NBC_f831ad7a1f", 
+                "morphology": "C290500B-I2_-_Scale_x1.000_y0.950_z1.000_-_Clone_1.asc"
+            }
+        ], 
+        "cIR": [
+            {
+                "model_directory": "L23_NBC_cIR216_2", 
+                "model_template": "BBP:cIR216_L23_NBC_2ee5947bbf", 
+                "morphology": "C040600A2_-_Scale_x1.000_y1.050_z1.000_-_Clone_18.asc"
+            }, 
+            {
+                "model_directory": "L23_NBC_cIR216_1", 
+                "model_template": "BBP:cIR216_L23_NBC_84b7be2a4c", 
+                "morphology": "C020200-16_-_Clone_17.asc"
+            }
+        ], 
+        "cNAC": [
+            {
+                "model_directory": "L23_NBC_cNAC187_1", 
+                "model_template": "BBP:cNAC187_L23_NBC_9d37c4b1f8", 
+                "morphology": "C300898C-I3_-_Scale_x1.000_y0.950_z1.000_-_Clone_20.asc"
+            }, 
+            {
+                "model_directory": "L23_NBC_cNAC187_2", 
+                "model_template": "BBP:cNAC187_L23_NBC_7f97b8e83f", 
+                "morphology": "C280999A-I4_-_Scale_x1.000_y0.975_z1.000_-_Clone_14.asc"
+            }
+        ], 
+        "dNAC": [
+            {
+                "model_directory": "L23_NBC_dNAC222_2", 
+                "model_template": "BBP:dNAC222_L23_NBC_46256e0cca", 
+                "morphology": "C040600A2_-_Clone_2.asc"
+            }, 
+            {
+                "model_directory": "L23_NBC_dNAC222_1", 
+                "model_template": "BBP:dNAC222_L23_NBC_ec4aba2351", 
+                "morphology": "C280999A-I4_-_Scale_x1.000_y0.950_z1.000_-_Clone_2.asc"
+            }
+        ]
+    }, 
+    "L23_NGC": {
+        "bNAC": [
+            {
+                "model_directory": "L23_NGC_bNAC219_2", 
+                "model_template": "BBP:bNAC219_L23_NGC_d600988347", 
+                "morphology": "sm100618b1-2_idA_-_Scale_x1.000_y0.975_z1.000_-_Clone_1.asc"
+            }, 
+            {
+                "model_directory": "L23_NGC_bNAC219_1", 
+                "model_template": "BBP:bNAC219_L23_NGC_1c20d72451", 
+                "morphology": "C170998D-I3_-_Scale_x1.000_y1.025_z1.000_-_Clone_3.asc"
+            }
+        ], 
+        "cAC": [
+            {
+                "model_directory": "L23_NGC_cACint209_1", 
+                "model_template": "BBP:cACint209_L23_NGC_be2ffb9c7d", 
+                "morphology": "C170998D-I3_-_Scale_x1.000_y0.950_z1.000_-_Clone_6.asc"
+            }, 
+            {
+                "model_directory": "L23_NGC_cACint209_2", 
+                "model_template": "BBP:cACint209_L23_NGC_90d34530b4", 
+                "morphology": "sm100618b1-2_idA_-_Clone_0.asc"
+            }
+        ], 
+        "cNAC": [
+            {
+                "model_directory": "L23_NGC_cNAC187_2", 
+                "model_template": "BBP:cNAC187_L23_NGC_e831b433a9", 
+                "morphology": "sm100618b1-2_idA_-_Scale_x1.000_y1.025_z1.000_-_Clone_3.asc"
+            }, 
+            {
+                "model_directory": "L23_NGC_cNAC187_1", 
+                "model_template": "BBP:cNAC187_L23_NGC_d79ffc246d", 
+                "morphology": "C170998D-I3_-_Scale_x1.000_y1.050_z1.000_-_Clone_12.asc"
+            }
+        ], 
+        "cSTUT": [
+            {
+                "model_directory": "L23_NGC_cSTUT189_1", 
+                "model_template": "BBP:cSTUT189_L23_NGC_565b9e8b55", 
+                "morphology": "C170998D-I3_-_Scale_x1.000_y0.975_z1.000_-_Clone_0.asc"
+            }, 
+            {
+                "model_directory": "L23_NGC_cSTUT189_2", 
+                "model_template": "BBP:cSTUT189_L23_NGC_efe076107a", 
+                "morphology": "sm100618b1-2_idA_-_Scale_x1.000_y1.025_z1.000_-_Clone_8.asc"
+            }
+        ]
+    }, 
+    "L23_PC": {
+        "cADpyr": [
+            {
+                "model_directory": "L23_PC_cADpyr229_1", 
+                "model_template": "BBP:cADpyr229_L23_PC_5ecbf9b163", 
+                "morphology": "dend-C170897A-P3_axon-C260897C-P4_-_Clone_4.asc"
+            }, 
+            {
+                "model_directory": "L23_PC_cADpyr229_2", 
+                "model_template": "BBP:cADpyr229_L23_PC_8ef1aa6602", 
+                "morphology": "dend-C170897A-P3_axon-C190898A-P2_-_Clone_3.asc"
+            }
+        ]
+    }, 
+    "L23_SBC": {
+        "bNAC": [
+            {
+                "model_directory": "L23_SBC_bNAC219_1", 
+                "model_template": "BBP:bNAC219_L23_SBC_6cab0b0a69", 
+                "morphology": "C010600C1_-_Scale_x1.000_y0.975_z1.000_-_Clone_1.asc"
+            }, 
+            {
+                "model_directory": "L23_SBC_bNAC219_2", 
+                "model_template": "BBP:bNAC219_L23_SBC_1361ded4e5", 
+                "morphology": "C011098A-I3_-_Scale_x1.000_y1.025_z1.000_-_Clone_1.asc"
+            }
+        ], 
+        "cAC": [
+            {
+                "model_directory": "L23_SBC_cACint209_1", 
+                "model_template": "BBP:cACint209_L23_SBC_1fa95380bf", 
+                "morphology": "sm110127b1-3_INT_idD_-_Scale_x1.000_y1.025_z1.000_-_Clone_0.asc"
+            }, 
+            {
+                "model_directory": "L23_SBC_cACint209_2", 
+                "model_template": "BBP:cACint209_L23_SBC_0869c1fd12", 
+                "morphology": "C011098A-I3_-_Scale_x1.000_y0.975_z1.000_-_Clone_1.asc"
+            }
+        ], 
+        "dNAC": [
+            {
+                "model_directory": "L23_SBC_dNAC222_2", 
+                "model_template": "BBP:dNAC222_L23_SBC_48c120ddd5", 
+                "morphology": "C011098A-I3_-_Clone_0.asc"
+            }, 
+            {
+                "model_directory": "L23_SBC_dNAC222_1", 
+                "model_template": "BBP:dNAC222_L23_SBC_ef99b8a177", 
+                "morphology": "sm110127a1-3_INT_idD_-_Scale_x1.000_y0.950_z1.000.asc"
+            }
+        ]
+    }, 
+    "L4_BP": {
+        "bAC": [
+            {
+                "model_directory": "L4_BP_bAC217_2", 
+                "model_template": "BBP:bAC217_L4_BP_a8b6abe396", 
+                "morphology": "C300797C-I1_-_Scale_x1.000_y1.025_z1.000.asc"
+            }, 
+            {
+                "model_directory": "L4_BP_bAC217_1", 
+                "model_template": "BBP:bAC217_L4_BP_d04c4872bd", 
+                "morphology": "C300797C-I1_-_Clone_16.asc"
+            }
+        ], 
+        "bIR": [
+            {
+                "model_directory": "L4_BP_bIR215_1", 
+                "model_template": "BBP:bIR215_L4_BP_a8b6abe396", 
+                "morphology": "C300797C-I1_-_Scale_x1.000_y1.025_z1.000.asc"
+            }, 
+            {
+                "model_directory": "L4_BP_bIR215_2", 
+                "model_template": "BBP:bIR215_L4_BP_7f9877b937", 
+                "morphology": "C300797C-I1_-_Scale_x1.000_y1.050_z1.000_-_Clone_10.asc"
+            }
+        ], 
+        "bNAC": [
+            {
+                "model_directory": "L4_BP_bNAC219_1", 
+                "model_template": "BBP:bNAC219_L4_BP_c99c259f39", 
+                "morphology": "C300797C-I1_-_Clone_3.asc"
+            }, 
+            {
+                "model_directory": "L4_BP_bNAC219_2", 
+                "model_template": "BBP:bNAC219_L4_BP_ff2b6d7b3d", 
+                "morphology": "C300797C-I1_-_Scale_x1.000_y0.950_z1.000_-_Clone_10.asc"
+            }
+        ], 
+        "cAC": [
+            {
+                "model_directory": "L4_BP_cACint209_2", 
+                "model_template": "BBP:cACint209_L4_BP_a436dc77d5", 
+                "morphology": "C300797C-I1_-_Scale_x1.000_y0.950_z1.000_-_Clone_9.asc"
+            }, 
+            {
+                "model_directory": "L4_BP_cACint209_1", 
+                "model_template": "BBP:cACint209_L4_BP_c99c259f39", 
+                "morphology": "C300797C-I1_-_Clone_3.asc"
+            }
+        ], 
+        "cNAC": [
+            {
+                "model_directory": "L4_BP_cNAC187_2", 
+                "model_template": "BBP:cNAC187_L4_BP_2a2ec4bfaa", 
+                "morphology": "C300797C-I1_-_Clone_13.asc"
+            }, 
+            {
+                "model_directory": "L4_BP_cNAC187_1", 
+                "model_template": "BBP:cNAC187_L4_BP_e936f4d8ba", 
+                "morphology": "C300797C-I1_-_Scale_x1.000_y0.975_z1.000_-_Clone_4.asc"
+            }
+        ], 
+        "dSTUT": [
+            {
+                "model_directory": "L4_BP_dSTUT214_1", 
+                "model_template": "BBP:dSTUT214_L4_BP_a8b6abe396", 
+                "morphology": "C300797C-I1_-_Scale_x1.000_y1.025_z1.000.asc"
+            }, 
+            {
+                "model_directory": "L4_BP_dSTUT214_2", 
+                "model_template": "BBP:dSTUT214_L4_BP_b88746aff4", 
+                "morphology": "C300797C-I1_-_Scale_x1.000_y0.975_z1.000_-_Clone_16.asc"
+            }
+        ]
+    }, 
+    "L4_BTC": {
+        "bAC": [
+            {
+                "model_directory": "L4_BTC_bAC217_1", 
+                "model_template": "BBP:bAC217_L4_BTC_ede3831900", 
+                "morphology": "C020600C1_-_Scale_x1.000_y0.975_z1.000_-_Clone_6.asc"
+            }, 
+            {
+                "model_directory": "L4_BTC_bAC217_2", 
+                "model_template": "BBP:bAC217_L4_BTC_070d4f32f0", 
+                "morphology": "C140201A1_-_Clone_6.asc"
+            }
+        ], 
+        "bIR": [
+            {
+                "model_directory": "L4_BTC_bIR215_1", 
+                "model_template": "BBP:bIR215_L4_BTC_22df25e508", 
+                "morphology": "C020600C1_-_Clone_2.asc"
+            }, 
+            {
+                "model_directory": "L4_BTC_bIR215_2", 
+                "model_template": "BBP:bIR215_L4_BTC_7ea9933f77", 
+                "morphology": "C140201A1_-_Clone_1.asc"
+            }
+        ], 
+        "bSTUT": [
+            {
+                "model_directory": "L4_BTC_bSTUT213_1", 
+                "model_template": "BBP:bSTUT213_L4_BTC_62f17815ed", 
+                "morphology": "C020600C1_-_Scale_x1.000_y1.025_z1.000_-_Clone_2.asc"
+            }, 
+            {
+                "model_directory": "L4_BTC_bSTUT213_2", 
+                "model_template": "BBP:bSTUT213_L4_BTC_93ff2bc104", 
+                "morphology": "rp110127_L5-2_idG_-_Scale_x1.000_y1.050_z1.000_-_Clone_1.asc"
+            }
+        ], 
+        "cAC": [
+            {
+                "model_directory": "L4_BTC_cACint209_1", 
+                "model_template": "BBP:cACint209_L4_BTC_20d24e55d5", 
+                "morphology": "C020600C1_-_Scale_x1.000_y1.025_z1.000_-_Clone_1.asc"
+            }, 
+            {
+                "model_directory": "L4_BTC_cACint209_2", 
+                "model_template": "BBP:cACint209_L4_BTC_87c80e7368", 
+                "morphology": "C140201A1_-_Scale_x1.000_y1.050_z1.000_-_Clone_6.asc"
+            }
+        ], 
+        "cNAC": [
+            {
+                "model_directory": "L4_BTC_cNAC187_2", 
+                "model_template": "BBP:cNAC187_L4_BTC_dbb05c9cf3", 
+                "morphology": "C140201A1_-_Scale_x1.000_y0.975_z1.000_-_Clone_4.asc"
+            }, 
+            {
+                "model_directory": "L4_BTC_cNAC187_1", 
+                "model_template": "BBP:cNAC187_L4_BTC_ff1cebdea2", 
+                "morphology": "C020600C1_-_Scale_x1.000_y0.950_z1.000_-_Clone_3.asc"
+            }
+        ], 
+        "dNAC": [
+            {
+                "model_directory": "L4_BTC_dNAC222_2", 
+                "model_template": "BBP:dNAC222_L4_BTC_5612242ada", 
+                "morphology": "C250298A-I4_-_Scale_x1.000_y0.950_z1.000_-_Clone_6.asc"
+            }, 
+            {
+                "model_directory": "L4_BTC_dNAC222_1", 
+                "model_template": "BBP:dNAC222_L4_BTC_2d64e36d0b", 
+                "morphology": "C020600C1_-_Scale_x1.000_y0.950_z1.000_-_Clone_6.asc"
+            }
+        ]
+    }, 
+    "L4_ChC": {
+        "cAC": [
+            {
+                "model_directory": "L4_ChC_cACint209_1", 
+                "model_template": "BBP:cACint209_L4_ChC_2d707a8bcb", 
+                "morphology": "C091000D-I3_-_Scale_x1.000_y0.975_z1.000_-_Clone_12.asc"
+            }, 
+            {
+                "model_directory": "L4_ChC_cACint209_2", 
+                "model_template": "BBP:cACint209_L4_ChC_85076eeecc", 
+                "morphology": "mtC070301B_idC_-_Scale_x1.000_y0.950_z1.000_-_Clone_4.asc"
+            }
+        ], 
+        "cNAC": [
+            {
+                "model_directory": "L4_ChC_cNAC187_1", 
+                "model_template": "BBP:cNAC187_L4_ChC_22d43e8e41", 
+                "morphology": "C091000D-I3_-_Scale_x1.000_y1.050_z1.000_-_Clone_2.asc"
+            }, 
+            {
+                "model_directory": "L4_ChC_cNAC187_2", 
+                "model_template": "BBP:cNAC187_L4_ChC_56a32cfcf2", 
+                "morphology": "mtC070301B_idC_-_Scale_x1.000_y1.050_z1.000.asc"
+            }
+        ], 
+        "dNAC": [
+            {
+                "model_directory": "L4_ChC_dNAC222_1", 
+                "model_template": "BBP:dNAC222_L4_ChC_5e109d198d", 
+                "morphology": "C091000D-I3_-_Scale_x1.000_y1.050_z1.000_-_Clone_12.asc"
+            }, 
+            {
+                "model_directory": "L4_ChC_dNAC222_2", 
+                "model_template": "BBP:dNAC222_L4_ChC_9060a4c27e", 
+                "morphology": "mtC070301B_idC_-_Scale_x1.000_y0.950_z1.000_-_Clone_2.asc"
+            }
+        ]
+    }, 
+    "L4_DBC": {
+        "bAC": [
+            {
+                "model_directory": "L4_DBC_bAC217_1", 
+                "model_template": "BBP:bAC217_L4_DBC_78a99c338d", 
+                "morphology": "C140600C-I1_-_Scale_x1.000_y1.050_z1.000_-_Clone_2.asc"
+            }, 
+            {
+                "model_directory": "L4_DBC_bAC217_2", 
+                "model_template": "BBP:bAC217_L4_DBC_9827c5d3a7", 
+                "morphology": "C300997A-I1_-_Scale_x1.000_y1.050_z1.000_-_Clone_0.asc"
+            }
+        ], 
+        "bIR": [
+            {
+                "model_directory": "L4_DBC_bIR215_2", 
+                "model_template": "BBP:bIR215_L4_DBC_f339de2544", 
+                "morphology": "C300997A-I1_-_Scale_x1.000_y1.050_z1.000_-_Clone_1.asc"
+            }, 
+            {
+                "model_directory": "L4_DBC_bIR215_1", 
+                "model_template": "BBP:bIR215_L4_DBC_78a99c338d", 
+                "morphology": "C140600C-I1_-_Scale_x1.000_y1.050_z1.000_-_Clone_2.asc"
+            }
+        ], 
+        "bNAC": [
+            {
+                "model_directory": "L4_DBC_bNAC219_2", 
+                "model_template": "BBP:bNAC219_L4_DBC_45e771bde6", 
+                "morphology": "C300997A-I1_-_Scale_x1.000_y0.950_z1.000_-_Clone_0.asc"
+            }, 
+            {
+                "model_directory": "L4_DBC_bNAC219_1", 
+                "model_template": "BBP:bNAC219_L4_DBC_beb47bee0e", 
+                "morphology": "C140600C-I1_-_Scale_x1.000_y1.025_z1.000_-_Clone_0.asc"
+            }
+        ], 
+        "bSTUT": [
+            {
+                "model_directory": "L4_DBC_bSTUT213_2", 
+                "model_template": "BBP:bSTUT213_L4_DBC_c6dae7aa61", 
+                "morphology": "C300997A-I1_-_Scale_x1.000_y1.050_z1.000_-_Clone_2.asc"
+            }, 
+            {
+                "model_directory": "L4_DBC_bSTUT213_1", 
+                "model_template": "BBP:bSTUT213_L4_DBC_23ffe29c8b", 
+                "morphology": "C140600C-I1_-_Clone_2.asc"
+            }
+        ], 
+        "cAC": [
+            {
+                "model_directory": "L4_DBC_cACint209_2", 
+                "model_template": "BBP:cACint209_L4_DBC_280e20a247", 
+                "morphology": "C300997A-I1_-_Scale_x1.000_y0.950_z1.000_-_Clone_2.asc"
+            }, 
+            {
+                "model_directory": "L4_DBC_cACint209_1", 
+                "model_template": "BBP:cACint209_L4_DBC_a7aa7154d8", 
+                "morphology": "C140600C-I1_-_Scale_x1.000_y1.025_z1.000.asc"
+            }
+        ], 
+        "cIR": [
+            {
+                "model_directory": "L4_DBC_cIR216_1", 
+                "model_template": "BBP:cIR216_L4_DBC_972df9520e", 
+                "morphology": "C140600C-I1_-_Scale_x1.000_y0.950_z1.000_-_Clone_2.asc"
+            }, 
+            {
+                "model_directory": "L4_DBC_cIR216_2", 
+                "model_template": "BBP:cIR216_L4_DBC_8e5844bb23", 
+                "morphology": "C300997A-I1_-_Scale_x1.000_y0.975_z1.000_-_Clone_0.asc"
+            }
+        ], 
+        "cNAC": [
+            {
+                "model_directory": "L4_DBC_cNAC187_2", 
+                "model_template": "BBP:cNAC187_L4_DBC_c6dae7aa61", 
+                "morphology": "C300997A-I1_-_Scale_x1.000_y1.050_z1.000_-_Clone_2.asc"
+            }, 
+            {
+                "model_directory": "L4_DBC_cNAC187_1", 
+                "model_template": "BBP:cNAC187_L4_DBC_23ffe29c8b", 
+                "morphology": "C140600C-I1_-_Clone_2.asc"
+            }
+        ]
+    }, 
+    "L4_LBC": {
+        "cAC": [
+            {
+                "model_directory": "L4_LBC_cACint209_2", 
+                "model_template": "BBP:cACint209_L4_LBC_66ec8fed8f", 
+                "morphology": "C010600B1_-_Scale_x1.000_y1.025_z1.000_-_Clone_5.asc"
+            }, 
+            {
+                "model_directory": "L4_LBC_cACint209_1", 
+                "model_template": "BBP:cACint209_L4_LBC_baa757490e", 
+                "morphology": "C310897A-I2_-_Scale_x1.000_y1.025_z1.000_-_Clone_1.asc"
+            }
+        ], 
+        "cNAC": [
+            {
+                "model_directory": "L4_LBC_cNAC187_1", 
+                "model_template": "BBP:cNAC187_L4_LBC_990b7ac7df", 
+                "morphology": "C010398B-I4_cor_-_Clone_0.asc"
+            }, 
+            {
+                "model_directory": "L4_LBC_cNAC187_2", 
+                "model_template": "BBP:cNAC187_L4_LBC_1cf329956f", 
+                "morphology": "C310106C_-_Scale_x1.000_y0.975_z1.000_-_Clone_3.asc"
+            }
+        ], 
+        "cSTUT": [
+            {
+                "model_directory": "L4_LBC_cSTUT189_2", 
+                "model_template": "BBP:cSTUT189_L4_LBC_11016afdad", 
+                "morphology": "mtC080301C_idA_-_Scale_x1.000_y1.050_z1.000_-_Clone_3.asc"
+            }, 
+            {
+                "model_directory": "L4_LBC_cSTUT189_1", 
+                "model_template": "BBP:cSTUT189_L4_LBC_1d4118b33e", 
+                "morphology": "C010398B-I4_cor_-_Clone_2.asc"
+            }
+        ], 
+        "dNAC": [
+            {
+                "model_directory": "L4_LBC_dNAC222_1", 
+                "model_template": "BBP:dNAC222_L4_LBC_f6a71a338d", 
+                "morphology": "mtC080301C_idA_-_Scale_x1.000_y0.950_z1.000_-_Clone_1.asc"
+            }, 
+            {
+                "model_directory": "L4_LBC_dNAC222_2", 
+                "model_template": "BBP:dNAC222_L4_LBC_f0975c96e7", 
+                "morphology": "C240298B-I4_-_Scale_x1.000_y0.950_z1.000.asc"
+            }
+        ], 
+        "dSTUT": [
+            {
+                "model_directory": "L4_LBC_dSTUT214_2", 
+                "model_template": "BBP:dSTUT214_L4_LBC_396684f644", 
+                "morphology": "mtC080301C_idA_-_Scale_x1.000_y0.950_z1.000.asc"
+            }, 
+            {
+                "model_directory": "L4_LBC_dSTUT214_1", 
+                "model_template": "BBP:dSTUT214_L4_LBC_aecec7aee9", 
+                "morphology": "C310106C_-_Clone_4.asc"
+            }
+        ]
+    }, 
+    "L4_MC": {
+        "bAC": [
+            {
+                "model_directory": "L4_MC_bAC217_1", 
+                "model_template": "BBP:bAC217_L4_MC_3110386c07", 
+                "morphology": "C190997A-I1.asc"
+            }, 
+            {
+                "model_directory": "L4_MC_bAC217_2", 
+                "model_template": "BBP:bAC217_L4_MC_2eb83e1eed", 
+                "morphology": "C270999B-I4.asc"
+            }
+        ], 
+        "bNAC": [
+            {
+                "model_directory": "L4_MC_bNAC219_1", 
+                "model_template": "BBP:bNAC219_L4_MC_ba3c5063e4", 
+                "morphology": "C090997A-I2.asc"
+            }, 
+            {
+                "model_directory": "L4_MC_bNAC219_2", 
+                "model_template": "BBP:bNAC219_L4_MC_2eb83e1eed", 
+                "morphology": "C270999B-I4.asc"
+            }
+        ], 
+        "cAC": [
+            {
+                "model_directory": "L4_MC_cACint209_2", 
+                "model_template": "BBP:cACint209_L4_MC_f8c62d11b0", 
+                "morphology": "C150600B-I1.asc"
+            }, 
+            {
+                "model_directory": "L4_MC_cACint209_1", 
+                "model_template": "BBP:cACint209_L4_MC_ba3c5063e4", 
+                "morphology": "C090997A-I2.asc"
+            }
+        ], 
+        "cNAC": [
+            {
+                "model_directory": "L4_MC_cNAC187_2", 
+                "model_template": "BBP:cNAC187_L4_MC_3110386c07", 
+                "morphology": "C190997A-I1.asc"
+            }, 
+            {
+                "model_directory": "L4_MC_cNAC187_1", 
+                "model_template": "BBP:cNAC187_L4_MC_f8c62d11b0", 
+                "morphology": "C150600B-I1.asc"
+            }
+        ], 
+        "dNAC": [
+            {
+                "model_directory": "L4_MC_dNAC222_2", 
+                "model_template": "BBP:dNAC222_L4_MC_3110386c07", 
+                "morphology": "C190997A-I1.asc"
+            }, 
+            {
+                "model_directory": "L4_MC_dNAC222_1", 
+                "model_template": "BBP:dNAC222_L4_MC_f8c62d11b0", 
+                "morphology": "C150600B-I1.asc"
+            }
+        ]
+    }, 
+    "L4_NBC": {
+        "cAC": [
+            {
+                "model_directory": "L4_NBC_cACint209_2", 
+                "model_template": "BBP:cACint209_L4_NBC_3552e1f34a", 
+                "morphology": "C040600B1_-_Clone_2.asc"
+            }, 
+            {
+                "model_directory": "L4_NBC_cACint209_1", 
+                "model_template": "BBP:cACint209_L4_NBC_9060dda08b", 
+                "morphology": "rp110113_L5-1_idA_-_Scale_x1.000_y1.025_z1.000_-_Clone_4.asc"
+            }
+        ], 
+        "cIR": [
+            {
+                "model_directory": "L4_NBC_cIR216_1", 
+                "model_template": "BBP:cIR216_L4_NBC_f53cc303cc", 
+                "morphology": "C010600A2_-_Scale_x1.000_y1.050_z1.000_-_Clone_3.asc"
+            }, 
+            {
+                "model_directory": "L4_NBC_cIR216_2", 
+                "model_template": "BBP:cIR216_L4_NBC_c28326d13b", 
+                "morphology": "C040600B1_-_Scale_x1.000_y0.950_z1.000_-_Clone_0.asc"
+            }
+        ], 
+        "cNAC": [
+            {
+                "model_directory": "L4_NBC_cNAC187_1", 
+                "model_template": "BBP:cNAC187_L4_NBC_36cd91dc08", 
+                "morphology": "C200897C-I1_-_Clone_1.asc"
+            }, 
+            {
+                "model_directory": "L4_NBC_cNAC187_2", 
+                "model_template": "BBP:cNAC187_L4_NBC_bfc793de90", 
+                "morphology": "C040600B1_-_Clone_3.asc"
+            }
+        ], 
+        "dNAC": [
+            {
+                "model_directory": "L4_NBC_dNAC222_1", 
+                "model_template": "BBP:dNAC222_L4_NBC_aa36da75a3", 
+                "morphology": "C010600A2_-_Scale_x1.000_y0.975_z1.000_-_Clone_0.asc"
+            }, 
+            {
+                "model_directory": "L4_NBC_dNAC222_2", 
+                "model_template": "BBP:dNAC222_L4_NBC_0dd32b6386", 
+                "morphology": "C040600B1_-_Scale_x1.000_y1.050_z1.000_-_Clone_0.asc"
+            }
+        ]
+    }, 
+    "L4_NGC": {
+        "bNAC": [
+            {
+                "model_directory": "L4_NGC_bNAC219_2", 
+                "model_template": "BBP:bNAC219_L4_NGC_f7ede76c77", 
+                "morphology": "sm100618b1-2_idA_-_Scale_x1.000_y1.025_z1.000_-_Clone_10.asc"
+            }, 
+            {
+                "model_directory": "L4_NGC_bNAC219_1", 
+                "model_template": "BBP:bNAC219_L4_NGC_3c9a6fcd96", 
+                "morphology": "C170998D-I3_-_Scale_x1.000_y1.025_z1.000_-_Clone_8.asc"
+            }
+        ], 
+        "cAC": [
+            {
+                "model_directory": "L4_NGC_cACint209_1", 
+                "model_template": "BBP:cACint209_L4_NGC_00ae03b116", 
+                "morphology": "C170998D-I3_-_Scale_x1.000_y1.050_z1.000_-_Clone_2.asc"
+            }, 
+            {
+                "model_directory": "L4_NGC_cACint209_2", 
+                "model_template": "BBP:cACint209_L4_NGC_9f0f008375", 
+                "morphology": "sm100618b1-2_idA_-_Clone_6.asc"
+            }
+        ], 
+        "cNAC": [
+            {
+                "model_directory": "L4_NGC_cNAC187_1", 
+                "model_template": "BBP:cNAC187_L4_NGC_025b2126a1", 
+                "morphology": "C170998D-I3_-_Scale_x1.000_y0.975_z1.000_-_Clone_10.asc"
+            }, 
+            {
+                "model_directory": "L4_NGC_cNAC187_2", 
+                "model_template": "BBP:cNAC187_L4_NGC_cf97ea357c", 
+                "morphology": "sm100618b1-2_idA_-_Scale_x1.000_y0.950_z1.000_-_Clone_0.asc"
+            }
+        ], 
+        "cSTUT": [
+            {
+                "model_directory": "L4_NGC_cSTUT189_1", 
+                "model_template": "BBP:cSTUT189_L4_NGC_1c20d72451", 
+                "morphology": "C170998D-I3_-_Scale_x1.000_y1.025_z1.000_-_Clone_3.asc"
+            }, 
+            {
+                "model_directory": "L4_NGC_cSTUT189_2", 
+                "model_template": "BBP:cSTUT189_L4_NGC_40d6a8f682", 
+                "morphology": "C170998D-I3_-_Scale_x1.000_y0.975_z1.000_-_Clone_4.asc"
+            }
+        ]
+    }, 
+    "L4_PC": {
+        "cADpyr": [
+            {
+                "model_directory": "L4_PC_cADpyr230_2", 
+                "model_template": "BBP:cADpyr230_L4_PC_2d5807a37b", 
+                "morphology": "dend-C310897B-P3_axon-C220498B-P3_cor_-_Clone_1.asc"
+            }, 
+            {
+                "model_directory": "L4_PC_cADpyr230_1", 
+                "model_template": "BBP:cADpyr230_L4_PC_f15e35e578", 
+                "morphology": "dend-C300797C-P4_axon-C200897C-P4_-_Scale_x1.000_y1.025_z1.000_-_Clone_11.asc"
+            }
+        ]
+    }, 
+    "L4_SBC": {
+        "bNAC": [
+            {
+                "model_directory": "L4_SBC_bNAC219_1", 
+                "model_template": "BBP:bNAC219_L4_SBC_140df1eca7", 
+                "morphology": "C060998B-I1_-_Scale_x1.000_y0.975_z1.000_-_Clone_2.asc"
+            }, 
+            {
+                "model_directory": "L4_SBC_bNAC219_2", 
+                "model_template": "BBP:bNAC219_L4_SBC_dbf40425f3", 
+                "morphology": "C140898A-I1.asc"
+            }
+        ], 
+        "cAC": [
+            {
+                "model_directory": "L4_SBC_cACint209_2", 
+                "model_template": "BBP:cACint209_L4_SBC_684e05d4eb", 
+                "morphology": "C140898A-I1_-_Scale_x1.000_y1.050_z1.000_-_Clone_1.asc"
+            }, 
+            {
+                "model_directory": "L4_SBC_cACint209_1", 
+                "model_template": "BBP:cACint209_L4_SBC_4148f86d4f", 
+                "morphology": "C031097B-I4_-_Scale_x1.000_y1.050_z1.000_-_Clone_0.asc"
+            }
+        ], 
+        "dNAC": [
+            {
+                "model_directory": "L4_SBC_dNAC222_2", 
+                "model_template": "BBP:dNAC222_L4_SBC_f48f4f7670", 
+                "morphology": "C140898A-I1_-_Scale_x1.000_y1.050_z1.000_-_Clone_0.asc"
+            }, 
+            {
+                "model_directory": "L4_SBC_dNAC222_1", 
+                "model_template": "BBP:dNAC222_L4_SBC_dcee829578", 
+                "morphology": "C060998B-I1_-_Scale_x1.000_y0.950_z1.000_-_Clone_2.asc"
+            }
+        ]
+    }, 
+    "L4_SP": {
+        "cADpyr": [
+            {
+                "model_directory": "L4_SP_cADpyr230_1", 
+                "model_template": "BBP:cADpyr230_L4_SP_6fe41ae9cd", 
+                "morphology": "dend-C010398B-P3_axon-C031097B-P3_-_Clone_11.asc"
+            }, 
+            {
+                "model_directory": "L4_SP_cADpyr230_2", 
+                "model_template": "BBP:cADpyr230_L4_SP_0dc3a9acaf", 
+                "morphology": "dend-C170898A-P4_axon-C180997A-P3_-_Clone_5.asc"
+            }
+        ]
+    }, 
+    "L4_SS": {
+        "cADpyr": [
+            {
+                "model_directory": "L4_SS_cADpyr230_2", 
+                "model_template": "BBP:cADpyr230_L4_SS_1afeb14f17", 
+                "morphology": "dend-C050800E2_cor_axon-C120398A-P3_-_Scale_x1.000_y1.025_z1.000_-_Clone_87.asc"
+            }, 
+            {
+                "model_directory": "L4_SS_cADpyr230_1", 
+                "model_template": "BBP:cADpyr230_L4_SS_9e49de205b", 
+                "morphology": "dend-C050800E2_cor_axon-C120398A-P2_-_Scale_x1.000_y1.050_z1.000_-_Clone_71.asc"
+            }
+        ]
+    }, 
+    "L5_BP": {
+        "bAC": [
+            {
+                "model_directory": "L5_BP_bAC217_1", 
+                "model_template": "BBP:bAC217_L5_BP_d0cc8d7615", 
+                "morphology": "C240300C1_-_Scale_x1.000_y1.050_z1.000_-_Clone_17.asc"
+            }, 
+            {
+                "model_directory": "L5_BP_bAC217_2", 
+                "model_template": "BBP:bAC217_L5_BP_e3706556cb", 
+                "morphology": "C240300C1_-_Scale_x1.000_y1.025_z1.000_-_Clone_32.asc"
+            }
+        ], 
+        "bIR": [
+            {
+                "model_directory": "L5_BP_bIR215_1", 
+                "model_template": "BBP:bIR215_L5_BP_6687408de7", 
+                "morphology": "C240300C1_-_Scale_x1.000_y0.975_z1.000_-_Clone_38.asc"
+            }, 
+            {
+                "model_directory": "L5_BP_bIR215_2", 
+                "model_template": "BBP:bIR215_L5_BP_706acf4049", 
+                "morphology": "C240300C1_-_Clone_38.asc"
+            }
+        ], 
+        "bNAC": [
+            {
+                "model_directory": "L5_BP_bNAC219_2", 
+                "model_template": "BBP:bNAC219_L5_BP_b022a66bd2", 
+                "morphology": "C240300C1_-_Clone_15.asc"
+            }, 
+            {
+                "model_directory": "L5_BP_bNAC219_1", 
+                "model_template": "BBP:bNAC219_L5_BP_bc09d28ed4", 
+                "morphology": "C240300C1_-_Scale_x1.000_y0.975_z1.000_-_Clone_54.asc"
+            }
+        ], 
+        "cAC": [
+            {
+                "model_directory": "L5_BP_cACint209_2", 
+                "model_template": "BBP:cACint209_L5_BP_f600080385", 
+                "morphology": "C240300C1_-_Scale_x1.000_y0.950_z1.000_-_Clone_4.asc"
+            }, 
+            {
+                "model_directory": "L5_BP_cACint209_1", 
+                "model_template": "BBP:cACint209_L5_BP_94d2820eba", 
+                "morphology": "C240300C1_-_Scale_x1.000_y0.975_z1.000_-_Clone_49.asc"
+            }
+        ], 
+        "cNAC": [
+            {
+                "model_directory": "L5_BP_cNAC187_1", 
+                "model_template": "BBP:cNAC187_L5_BP_3085e9694e", 
+                "morphology": "C240300C1_-_Clone_48.asc"
+            }, 
+            {
+                "model_directory": "L5_BP_cNAC187_2", 
+                "model_template": "BBP:cNAC187_L5_BP_94e814803e", 
+                "morphology": "C240300C1_-_Scale_x1.000_y0.950_z1.000_-_Clone_15.asc"
+            }
+        ], 
+        "dSTUT": [
+            {
+                "model_directory": "L5_BP_dSTUT214_1", 
+                "model_template": "BBP:dSTUT214_L5_BP_f600080385", 
+                "morphology": "C240300C1_-_Scale_x1.000_y0.950_z1.000_-_Clone_4.asc"
+            }, 
+            {
+                "model_directory": "L5_BP_dSTUT214_2", 
+                "model_template": "BBP:dSTUT214_L5_BP_55f9b731a1", 
+                "morphology": "C240300C1_-_Scale_x1.000_y0.950_z1.000_-_Clone_24.asc"
+            }
+        ]
+    }, 
+    "L5_BTC": {
+        "bAC": [
+            {
+                "model_directory": "L5_BTC_bAC217_2", 
+                "model_template": "BBP:bAC217_L5_BTC_3d68fea85d", 
+                "morphology": "C240998A-I_-_Scale_x1.000_y1.025_z1.000_-_Clone_7.asc"
+            }, 
+            {
+                "model_directory": "L5_BTC_bAC217_1", 
+                "model_template": "BBP:bAC217_L5_BTC_160272643a", 
+                "morphology": "C160998B-I_-_Scale_x1.000_y1.050_z1.000_-_Clone_5.asc"
+            }
+        ], 
+        "cAC": [
+            {
+                "model_directory": "L5_BTC_cACint209_2", 
+                "model_template": "BBP:cACint209_L5_BTC_6ab22ae2e0", 
+                "morphology": "C240998A-I_-_Scale_x1.000_y1.025_z1.000_-_Clone_6.asc"
+            }, 
+            {
+                "model_directory": "L5_BTC_cACint209_1", 
+                "model_template": "BBP:cACint209_L5_BTC_41f7db5b85", 
+                "morphology": "C160998B-I_-_Scale_x1.000_y0.950_z1.000_-_Clone_1.asc"
+            }
+        ], 
+        "cNAC": [
+            {
+                "model_directory": "L5_BTC_cNAC187_1", 
+                "model_template": "BBP:cNAC187_L5_BTC_0a43e2f3e5", 
+                "morphology": "C160998B-I_-_Scale_x1.000_y0.975_z1.000_-_Clone_5.asc"
+            }, 
+            {
+                "model_directory": "L5_BTC_cNAC187_2", 
+                "model_template": "BBP:cNAC187_L5_BTC_18584bfae6", 
+                "morphology": "C240998A-I_-_Scale_x1.000_y0.950_z1.000_-_Clone_1.asc"
+            }
+        ]
+    }, 
+    "L5_ChC": {
+        "cAC": [
+            {
+                "model_directory": "L5_ChC_cACint209_1", 
+                "model_template": "BBP:cACint209_L5_ChC_e98f63217d", 
+                "morphology": "C091000D-I3_-_Scale_x1.000_y1.025_z1.000_-_Clone_6.asc"
+            }, 
+            {
+                "model_directory": "L5_ChC_cACint209_2", 
+                "model_template": "BBP:cACint209_L5_ChC_c38923facb", 
+                "morphology": "mtC070301B_idC_-_Scale_x1.000_y0.975_z1.000_-_Clone_1.asc"
+            }
+        ], 
+        "cNAC": [
+            {
+                "model_directory": "L5_ChC_cNAC187_2", 
+                "model_template": "BBP:cNAC187_L5_ChC_b51988187a", 
+                "morphology": "mtC070301B_idC_-_Scale_x1.000_y1.025_z1.000_-_Clone_9.asc"
+            }, 
+            {
+                "model_directory": "L5_ChC_cNAC187_1", 
+                "model_template": "BBP:cNAC187_L5_ChC_8901e742c7", 
+                "morphology": "C091000D-I3_-_Scale_x1.000_y1.025_z1.000_-_Clone_0.asc"
+            }
+        ], 
+        "dNAC": [
+            {
+                "model_directory": "L5_ChC_dNAC222_2", 
+                "model_template": "BBP:dNAC222_L5_ChC_6493f67bad", 
+                "morphology": "mtC070301B_idC_-_Scale_x1.000_y1.025_z1.000_-_Clone_11.asc"
+            }, 
+            {
+                "model_directory": "L5_ChC_dNAC222_1", 
+                "model_template": "BBP:dNAC222_L5_ChC_75c658c9b8", 
+                "morphology": "C091000D-I3_-_Scale_x1.000_y0.950_z1.000_-_Clone_9.asc"
+            }
+        ]
+    }, 
+    "L5_DBC": {
+        "bAC": [
+            {
+                "model_directory": "L5_DBC_bAC217_1", 
+                "model_template": "BBP:bAC217_L5_DBC_4765d943f4", 
+                "morphology": "rp100428-12_idC_-_Scale_x1.000_y1.025_z1.000_-_Clone_1.asc"
+            }, 
+            {
+                "model_directory": "L5_DBC_bAC217_2", 
+                "model_template": "BBP:bAC217_L5_DBC_e731906688", 
+                "morphology": "rp100428-12_idI_-_Scale_x1.000_y1.025_z1.000_-_Clone_2.asc"
+            }
+        ], 
+        "bIR": [
+            {
+                "model_directory": "L5_DBC_bIR215_1", 
+                "model_template": "BBP:bIR215_L5_DBC_893b78d08e", 
+                "morphology": "rp100428-12_idC_-_Scale_x1.000_y0.950_z1.000_-_Clone_1.asc"
+            }, 
+            {
+                "model_directory": "L5_DBC_bIR215_2", 
+                "model_template": "BBP:bIR215_L5_DBC_50ea904e54", 
+                "morphology": "rp100428-12_idI_-_Scale_x1.000_y0.975_z1.000_-_Clone_1.asc"
+            }
+        ], 
+        "bNAC": [
+            {
+                "model_directory": "L5_DBC_bNAC219_2", 
+                "model_template": "BBP:bNAC219_L5_DBC_ec8ca02d79", 
+                "morphology": "rp100428-12_idI_-_Scale_x1.000_y0.950_z1.000.asc"
+            }, 
+            {
+                "model_directory": "L5_DBC_bNAC219_1", 
+                "model_template": "BBP:bNAC219_L5_DBC_d56fbcd5cf", 
+                "morphology": "rp100428-12_idC_-_Scale_x1.000_y0.950_z1.000_-_Clone_2.asc"
+            }
+        ], 
+        "bSTUT": [
+            {
+                "model_directory": "L5_DBC_bSTUT213_1", 
+                "model_template": "BBP:bSTUT213_L5_DBC_ad487d347d", 
+                "morphology": "rp100428-12_idI_-_Scale_x1.000_y0.975_z1.000.asc"
+            }, 
+            {
+                "model_directory": "L5_DBC_bSTUT213_2", 
+                "model_template": "BBP:bSTUT213_L5_DBC_b475d0949a", 
+                "morphology": "rp100428-12_idI_-_Clone_2.asc"
+            }
+        ], 
+        "cAC": [
+            {
+                "model_directory": "L5_DBC_cACint209_2", 
+                "model_template": "BBP:cACint209_L5_DBC_74050baf6d", 
+                "morphology": "rp100428-12_idI_-_Scale_x1.000_y0.975_z1.000_-_Clone_2.asc"
+            }, 
+            {
+                "model_directory": "L5_DBC_cACint209_1", 
+                "model_template": "BBP:cACint209_L5_DBC_6a2bbf2a1b", 
+                "morphology": "rp100428-12_idC_-_Scale_x1.000_y1.050_z1.000_-_Clone_1.asc"
+            }
+        ], 
+        "cIR": [
+            {
+                "model_directory": "L5_DBC_cIR216_1", 
+                "model_template": "BBP:cIR216_L5_DBC_d8e0abdc7c", 
+                "morphology": "rp100428-12_idI_-_Clone_1.asc"
+            }, 
+            {
+                "model_directory": "L5_DBC_cIR216_2", 
+                "model_template": "BBP:cIR216_L5_DBC_5f1980557e", 
+                "morphology": "rp110125_L5-1_idF_-_Scale_x1.000_y1.050_z1.000_-_Clone_1.asc"
+            }
+        ], 
+        "cNAC": [
+            {
+                "model_directory": "L5_DBC_cNAC187_1", 
+                "model_template": "BBP:cNAC187_L5_DBC_893b78d08e", 
+                "morphology": "rp100428-12_idC_-_Scale_x1.000_y0.950_z1.000_-_Clone_1.asc"
+            }, 
+            {
+                "model_directory": "L5_DBC_cNAC187_2", 
+                "model_template": "BBP:cNAC187_L5_DBC_d8e0abdc7c", 
+                "morphology": "rp100428-12_idI_-_Clone_1.asc"
+            }
+        ]
+    }, 
+    "L5_LBC": {
+        "bAC": [
+            {
+                "model_directory": "L5_LBC_bAC217_1", 
+                "model_template": "BBP:bAC217_L5_LBC_c2cff91741", 
+                "morphology": "og061123b1-3_idB_-_Scale_x1.000_y0.975_z1.000_-_Clone_4.asc"
+            }, 
+            {
+                "model_directory": "L5_LBC_bAC217_2", 
+                "model_template": "BBP:bAC217_L5_LBC_01750e1e18", 
+                "morphology": "rp110201_L5-2_idA_-_Clone_10.asc"
+            }
+        ], 
+        "cAC": [
+            {
+                "model_directory": "L5_LBC_cACint209_1", 
+                "model_template": "BBP:cACint209_L5_LBC_126a82ac08", 
+                "morphology": "C080998A_-_Scale_x1.000_y0.950_z1.000_-_Clone_8.asc"
+            }, 
+            {
+                "model_directory": "L5_LBC_cACint209_2", 
+                "model_template": "BBP:cACint209_L5_LBC_3285d77dba", 
+                "morphology": "rp110201_L5-2_idA_-_Clone_9.asc"
+            }
+        ], 
+        "cIR": [
+            {
+                "model_directory": "L5_LBC_cIR216_1", 
+                "model_template": "BBP:cIR216_L5_LBC_8ce13ea42d", 
+                "morphology": "C080998A_-_Scale_x1.000_y0.975_z1.000_-_Clone_4.asc"
+            }, 
+            {
+                "model_directory": "L5_LBC_cIR216_2", 
+                "model_template": "BBP:cIR216_L5_LBC_c5448109e7", 
+                "morphology": "rp110419_C1_idA_-_Clone_2.asc"
+            }
+        ], 
+        "cNAC": [
+            {
+                "model_directory": "L5_LBC_cNAC187_2", 
+                "model_template": "BBP:cNAC187_L5_LBC_d19674cc92", 
+                "morphology": "rp110120_L5-2_idH_-_Scale_x1.000_y0.950_z1.000_-_Clone_10.asc"
+            }, 
+            {
+                "model_directory": "L5_LBC_cNAC187_1", 
+                "model_template": "BBP:cNAC187_L5_LBC_078d827ab9", 
+                "morphology": "C080998A_-_Scale_x1.000_y1.050_z1.000_-_Clone_0.asc"
+            }
+        ], 
+        "cSTUT": [
+            {
+                "model_directory": "L5_LBC_cSTUT189_2", 
+                "model_template": "BBP:cSTUT189_L5_LBC_7e5297a36c", 
+                "morphology": "rp110207_L5-1_idA_-_Scale_x1.000_y1.025_z1.000_-_Clone_9.asc"
+            }, 
+            {
+                "model_directory": "L5_LBC_cSTUT189_1", 
+                "model_template": "BBP:cSTUT189_L5_LBC_29803173bd", 
+                "morphology": "rp110419_C1_idA_-_Scale_x1.000_y0.950_z1.000_-_Clone_11.asc"
+            }
+        ], 
+        "dNAC": [
+            {
+                "model_directory": "L5_LBC_dNAC222_1", 
+                "model_template": "BBP:dNAC222_L5_LBC_99ab75ea98", 
+                "morphology": "rp110127_L5-3_idI_-_Scale_x1.000_y1.025_z1.000_-_Clone_11.asc"
+            }, 
+            {
+                "model_directory": "L5_LBC_dNAC222_2", 
+                "model_template": "BBP:dNAC222_L5_LBC_58bb1b2407", 
+                "morphology": "rp110419_C1_idA_-_Scale_x1.000_y0.975_z1.000.asc"
+            }
+        ], 
+        "dSTUT": [
+            {
+                "model_directory": "L5_LBC_dSTUT214_2", 
+                "model_template": "BBP:dSTUT214_L5_LBC_6a6d472ca8", 
+                "morphology": "rp110207_L5-1_idA_-_Scale_x1.000_y0.950_z1.000_-_Clone_6.asc"
+            }, 
+            {
+                "model_directory": "L5_LBC_dSTUT214_1", 
+                "model_template": "BBP:dSTUT214_L5_LBC_bf8ea1e366", 
+                "morphology": "rp110127_L5-3_idI_-_Scale_x1.000_y0.950_z1.000_-_Clone_4.asc"
+            }
+        ]
+    }, 
+    "L5_MC": {
+        "bAC": [
+            {
+                "model_directory": "L5_MC_bAC217_1", 
+                "model_template": "BBP:bAC217_L5_MC_cc2a170ef6", 
+                "morphology": "C040601.asc"
+            }, 
+            {
+                "model_directory": "L5_MC_bAC217_2", 
+                "model_template": "BBP:bAC217_L5_MC_7eeb7cff0f", 
+                "morphology": "C210301C1_cor.asc"
+            }
+        ], 
+        "bIR": [
+            {
+                "model_directory": "L5_MC_bIR215_2", 
+                "model_template": "BBP:bIR215_L5_MC_cc2a170ef6", 
+                "morphology": "C040601.asc"
+            }, 
+            {
+                "model_directory": "L5_MC_bIR215_1", 
+                "model_template": "BBP:bIR215_L5_MC_fdc7bd1d07", 
+                "morphology": "C040426.asc"
+            }
+        ], 
+        "bSTUT": [
+            {
+                "model_directory": "L5_MC_bSTUT213_2", 
+                "model_template": "BBP:bSTUT213_L5_MC_13c5267e91", 
+                "morphology": "C040601_-_Scale_x1.000_y0.950_z1.000.asc"
+            }, 
+            {
+                "model_directory": "L5_MC_bSTUT213_1", 
+                "model_template": "BBP:bSTUT213_L5_MC_fdc7bd1d07", 
+                "morphology": "C040426.asc"
+            }
+        ], 
+        "cAC": [
+            {
+                "model_directory": "L5_MC_cACint209_2", 
+                "model_template": "BBP:cACint209_L5_MC_cc2a170ef6", 
+                "morphology": "C040601.asc"
+            }, 
+            {
+                "model_directory": "L5_MC_cACint209_1", 
+                "model_template": "BBP:cACint209_L5_MC_fdc7bd1d07", 
+                "morphology": "C040426.asc"
+            }
+        ], 
+        "cNAC": [
+            {
+                "model_directory": "L5_MC_cNAC187_1", 
+                "model_template": "BBP:cNAC187_L5_MC_575d31ccfd", 
+                "morphology": "rp100426-1_idD_-_Scale_x1.000_y0.975_z1.000.asc"
+            }, 
+            {
+                "model_directory": "L5_MC_cNAC187_2", 
+                "model_template": "BBP:cNAC187_L5_MC_9935c06ba6", 
+                "morphology": "C040601_-_Scale_x1.000_y0.975_z1.000.asc"
+            }
+        ], 
+        "cSTUT": [
+            {
+                "model_directory": "L5_MC_cSTUT189_1", 
+                "model_template": "BBP:cSTUT189_L5_MC_cc2a170ef6", 
+                "morphology": "C040601.asc"
+            }, 
+            {
+                "model_directory": "L5_MC_cSTUT189_2", 
+                "model_template": "BBP:cSTUT189_L5_MC_42542e071a", 
+                "morphology": "C210301C1_cor_-_Scale_x1.000_y0.975_z1.000.asc"
+            }
+        ], 
+        "dNAC": [
+            {
+                "model_directory": "L5_MC_dNAC222_1", 
+                "model_template": "BBP:dNAC222_L5_MC_9935c06ba6", 
+                "morphology": "C040601_-_Scale_x1.000_y0.975_z1.000.asc"
+            }, 
+            {
+                "model_directory": "L5_MC_dNAC222_2", 
+                "model_template": "BBP:dNAC222_L5_MC_7eeb7cff0f", 
+                "morphology": "C210301C1_cor.asc"
+            }
+        ]
+    }, 
+    "L5_NBC": {
+        "bAC": [
+            {
+                "model_directory": "L5_NBC_bAC217_2", 
+                "model_template": "BBP:bAC217_L5_NBC_913c40083e", 
+                "morphology": "C290999C-I4_-_Scale_x1.000_y0.950_z1.000_-_Clone_0.asc"
+            }, 
+            {
+                "model_directory": "L5_NBC_bAC217_1", 
+                "model_template": "BBP:bAC217_L5_NBC_2db880c523", 
+                "morphology": "C080301B1_-_Scale_x1.000_y1.050_z1.000_-_Clone_2.asc"
+            }
+        ], 
+        "bIR": [
+            {
+                "model_directory": "L5_NBC_bIR215_2", 
+                "model_template": "BBP:bIR215_L5_NBC_913c40083e", 
+                "morphology": "C290999C-I4_-_Scale_x1.000_y0.950_z1.000_-_Clone_0.asc"
+            }, 
+            {
+                "model_directory": "L5_NBC_bIR215_1", 
+                "model_template": "BBP:bIR215_L5_NBC_809407f588", 
+                "morphology": "C080301B1_-_Scale_x1.000_y1.025_z1.000_-_Clone_1.asc"
+            }
+        ], 
+        "bSTUT": [
+            {
+                "model_directory": "L5_NBC_bSTUT213_1", 
+                "model_template": "BBP:bSTUT213_L5_NBC_bb8fc44e15", 
+                "morphology": "C080301B1_-_Scale_x1.000_y1.050_z1.000_-_Clone_0.asc"
+            }, 
+            {
+                "model_directory": "L5_NBC_bSTUT213_2", 
+                "model_template": "BBP:bSTUT213_L5_NBC_650c18e6aa", 
+                "morphology": "C290999C-I4_-_Scale_x1.000_y0.975_z1.000_-_Clone_0.asc"
+            }
+        ], 
+        "cAC": [
+            {
+                "model_directory": "L5_NBC_cACint209_2", 
+                "model_template": "BBP:cACint209_L5_NBC_3bb78a3daa", 
+                "morphology": "rp110427_C2_idA_-_Scale_x1.000_y0.950_z1.000_-_Clone_0.asc"
+            }, 
+            {
+                "model_directory": "L5_NBC_cACint209_1", 
+                "model_template": "BBP:cACint209_L5_NBC_63fe8b2e25", 
+                "morphology": "C080301B1_-_Scale_x1.000_y0.975_z1.000_-_Clone_0.asc"
+            }
+        ], 
+        "cIR": [
+            {
+                "model_directory": "L5_NBC_cIR216_2", 
+                "model_template": "BBP:cIR216_L5_NBC_650c18e6aa", 
+                "morphology": "C290999C-I4_-_Scale_x1.000_y0.975_z1.000_-_Clone_0.asc"
+            }, 
+            {
+                "model_directory": "L5_NBC_cIR216_1", 
+                "model_template": "BBP:cIR216_L5_NBC_ded84149de", 
+                "morphology": "C080301B1_-_Scale_x1.000_y1.025_z1.000_-_Clone_0.asc"
+            }
+        ], 
+        "cNAC": [
+            {
+                "model_directory": "L5_NBC_cNAC187_1", 
+                "model_template": "BBP:cNAC187_L5_NBC_ded84149de", 
+                "morphology": "C080301B1_-_Scale_x1.000_y1.025_z1.000_-_Clone_0.asc"
+            }, 
+            {
+                "model_directory": "L5_NBC_cNAC187_2", 
+                "model_template": "BBP:cNAC187_L5_NBC_8d74f99eef", 
+                "morphology": "C290999C-I4_-_Scale_x1.000_y1.050_z1.000_-_Clone_2.asc"
+            }
+        ], 
+        "cSTUT": [
+            {
+                "model_directory": "L5_NBC_cSTUT189_1", 
+                "model_template": "BBP:cSTUT189_L5_NBC_adc0ce53be", 
+                "morphology": "C080301B1_-_Scale_x1.000_y0.950_z1.000.asc"
+            }, 
+            {
+                "model_directory": "L5_NBC_cSTUT189_2", 
+                "model_template": "BBP:cSTUT189_L5_NBC_031c89778f", 
+                "morphology": "rp110208_L5-2_idA_-_Clone_1.asc"
+            }
+        ], 
+        "dSTUT": [
+            {
+                "model_directory": "L5_NBC_dSTUT214_1", 
+                "model_template": "BBP:dSTUT214_L5_NBC_3a23cf60a6", 
+                "morphology": "C080301B1_-_Scale_x1.000_y0.950_z1.000_-_Clone_0.asc"
+            }, 
+            {
+                "model_directory": "L5_NBC_dSTUT214_2", 
+                "model_template": "BBP:dSTUT214_L5_NBC_283ce5d859", 
+                "morphology": "rp110420_C1_idA_-_Scale_x1.000_y1.025_z1.000_-_Clone_1.asc"
+            }
+        ]
+    }, 
+    "L5_NGC": {
+        "bNAC": [
+            {
+                "model_directory": "L5_NGC_bNAC219_1", 
+                "model_template": "BBP:bNAC219_L5_NGC_6186b7e85e", 
+                "morphology": "rp110125_L5-2_idA_-_Scale_x1.000_y0.950_z1.000_-_Clone_42.asc"
+            }, 
+            {
+                "model_directory": "L5_NGC_bNAC219_2", 
+                "model_template": "BBP:bNAC219_L5_NGC_0a55b16adf", 
+                "morphology": "rp110125_L5-2_idA_-_Scale_x1.000_y0.950_z1.000_-_Clone_38.asc"
+            }
+        ], 
+        "cAC": [
+            {
+                "model_directory": "L5_NGC_cACint209_1", 
+                "model_template": "BBP:cACint209_L5_NGC_82e62003c9", 
+                "morphology": "rp110125_L5-2_idA_-_Scale_x1.000_y0.950_z1.000_-_Clone_31.asc"
+            }, 
+            {
+                "model_directory": "L5_NGC_cACint209_2", 
+                "model_template": "BBP:cACint209_L5_NGC_9ee242e8ff", 
+                "morphology": "rp110125_L5-2_idA_-_Scale_x1.000_y0.950_z1.000_-_Clone_6.asc"
+            }
+        ], 
+        "cNAC": [
+            {
+                "model_directory": "L5_NGC_cNAC187_1", 
+                "model_template": "BBP:cNAC187_L5_NGC_a85710f771", 
+                "morphology": "rp110125_L5-2_idA_-_Scale_x1.000_y1.050_z1.000_-_Clone_16.asc"
+            }, 
+            {
+                "model_directory": "L5_NGC_cNAC187_2", 
+                "model_template": "BBP:cNAC187_L5_NGC_e39fbbf8e7", 
+                "morphology": "rp110125_L5-2_idA_-_Scale_x1.000_y0.950_z1.000_-_Clone_15.asc"
+            }
+        ], 
+        "cSTUT": [
+            {
+                "model_directory": "L5_NGC_cSTUT189_2", 
+                "model_template": "BBP:cSTUT189_L5_NGC_d5718b222e", 
+                "morphology": "rp110125_L5-2_idA_-_Scale_x1.000_y0.950_z1.000_-_Clone_7.asc"
+            }, 
+            {
+                "model_directory": "L5_NGC_cSTUT189_1", 
+                "model_template": "BBP:cSTUT189_L5_NGC_de4f4a2b62", 
+                "morphology": "rp110125_L5-2_idA_-_Scale_x1.000_y0.975_z1.000_-_Clone_22.asc"
+            }
+        ]
+    }, 
+    "L5_SBC": {
+        "bNAC": [
+            {
+                "model_directory": "L5_SBC_bNAC219_1", 
+                "model_template": "BBP:bNAC219_L5_SBC_77ab259b7f", 
+                "morphology": "og061106a1_idA_-_Scale_x1.000_y1.050_z1.000_-_Clone_5.asc"
+            }, 
+            {
+                "model_directory": "L5_SBC_bNAC219_2", 
+                "model_template": "BBP:bNAC219_L5_SBC_80f2f8b43e", 
+                "morphology": "rp110107_L5-1_idB_-_Scale_x1.000_y1.050_z1.000_-_Clone_0.asc"
+            }
+        ], 
+        "cAC": [
+            {
+                "model_directory": "L5_SBC_cACint209_2", 
+                "model_template": "BBP:cACint209_L5_SBC_3ba116236f", 
+                "morphology": "rp110107_L5-1_idB_-_Scale_x1.000_y0.975_z1.000_-_Clone_1.asc"
+            }, 
+            {
+                "model_directory": "L5_SBC_cACint209_1", 
+                "model_template": "BBP:cACint209_L5_SBC_61a753bff1", 
+                "morphology": "og061106a1_idA_-_Scale_x1.000_y0.950_z1.000_-_Clone_2.asc"
+            }
+        ], 
+        "dNAC": [
+            {
+                "model_directory": "L5_SBC_dNAC222_2", 
+                "model_template": "BBP:dNAC222_L5_SBC_365080b27f", 
+                "morphology": "rp110110_L5-3_idA_-_Scale_x1.000_y0.950_z1.000_-_Clone_9.asc"
+            }, 
+            {
+                "model_directory": "L5_SBC_dNAC222_1", 
+                "model_template": "BBP:dNAC222_L5_SBC_513d1f1596", 
+                "morphology": "og061106a1_idA_-_Scale_x1.000_y1.025_z1.000_-_Clone_3.asc"
+            }
+        ]
+    }, 
+    "L5_STPC": {
+        "cADpyr": [
+            {
+                "model_directory": "L5_STPC_cADpyr232_2", 
+                "model_template": "BBP:cADpyr232_L5_STPC_d63221b7a8", 
+                "morphology": "dend-Fluo18_upper_axon-Fluo2_left_-_Clone_14.asc"
+            }, 
+            {
+                "model_directory": "L5_STPC_cADpyr232_1", 
+                "model_template": "BBP:cADpyr232_L5_STPC_d16b0be14e", 
+                "morphology": "dend-C231296A-P3_axon-C231296A-P3_-_Clone_9.asc"
+            }
+        ]
+    }, 
+    "L5_TTPC1": {
+        "cADpyr": [
+            {
+                "model_directory": "L5_TTPC1_cADpyr232_1", 
+                "model_template": "BBP:cADpyr232_L5_TTPC1_0fb1ca4724", 
+                "morphology": "dend-C060114A2_axon-C060114A5.asc"
+            }, 
+            {
+                "model_directory": "L5_TTPC1_cADpyr232_2", 
+                "model_template": "BBP:cADpyr232_L5_TTPC1_fc944c2cf3", 
+                "morphology": "dend-C060114A2_axon-C060109A2.asc"
+            }
+        ]
+    }, 
+    "L5_TTPC2": {
+        "cADpyr": [
+            {
+                "model_directory": "L5_TTPC2_cADpyr232_2", 
+                "model_template": "BBP:cADpyr232_L5_TTPC2_a28017c6c7", 
+                "morphology": "dend-C060114A4_axon-C080501B2.asc"
+            }, 
+            {
+                "model_directory": "L5_TTPC2_cADpyr232_1", 
+                "model_template": "BBP:cADpyr232_L5_TTPC2_8052133265", 
+                "morphology": "dend-C060114A7_axon-C060116A3_-_Clone_2.asc"
+            }
+        ]
+    }, 
+    "L5_UTPC": {
+        "cADpyr": [
+            {
+                "model_directory": "L5_UTPC_cADpyr232_2", 
+                "model_template": "BBP:cADpyr232_L5_UTPC_34f655e7f8", 
+                "morphology": "dend-Fluo15_left_axon-Fluo15_right_-_Scale_x1.000_y0.975_z1.000_-_Clone_9.asc"
+            }, 
+            {
+                "model_directory": "L5_UTPC_cADpyr232_1", 
+                "model_template": "BBP:cADpyr232_L5_UTPC_5e3840b51e", 
+                "morphology": "dend-Fluo15_left_axon-Fluo15_left_-_Scale_x1.000_y0.950_z1.000_-_Clone_30.asc"
+            }
+        ]
+    }, 
+    "L6_BP": {
+        "bAC": [
+            {
+                "model_directory": "L6_BP_bAC217_1", 
+                "model_template": "BBP:bAC217_L6_BP_b41e8e0c23", 
+                "morphology": "C240300C1_-_Scale_x1.000_y1.025_z1.000_-_Clone_19.asc"
+            }, 
+            {
+                "model_directory": "L6_BP_bAC217_2", 
+                "model_template": "BBP:bAC217_L6_BP_f920d1af2c", 
+                "morphology": "C240300C1_-_Clone_58.asc"
+            }
+        ], 
+        "bIR": [
+            {
+                "model_directory": "L6_BP_bIR215_2", 
+                "model_template": "BBP:bIR215_L6_BP_de7da8c370", 
+                "morphology": "C240300C1_-_Scale_x1.000_y0.950_z1.000_-_Clone_12.asc"
+            }, 
+            {
+                "model_directory": "L6_BP_bIR215_1", 
+                "model_template": "BBP:bIR215_L6_BP_5e5c39b863", 
+                "morphology": "C240300C1_-_Scale_x1.000_y0.950_z1.000_-_Clone_23.asc"
+            }
+        ], 
+        "bNAC": [
+            {
+                "model_directory": "L6_BP_bNAC219_2", 
+                "model_template": "BBP:bNAC219_L6_BP_6f14cec977", 
+                "morphology": "C240300C1_-_Clone_52.asc"
+            }, 
+            {
+                "model_directory": "L6_BP_bNAC219_1", 
+                "model_template": "BBP:bNAC219_L6_BP_94e814803e", 
+                "morphology": "C240300C1_-_Scale_x1.000_y0.950_z1.000_-_Clone_15.asc"
+            }
+        ], 
+        "cAC": [
+            {
+                "model_directory": "L6_BP_cACint209_1", 
+                "model_template": "BBP:cACint209_L6_BP_ce89d46a17", 
+                "morphology": "C240300C1_-_Scale_x1.000_y1.050_z1.000_-_Clone_36.asc"
+            }, 
+            {
+                "model_directory": "L6_BP_cACint209_2", 
+                "model_template": "BBP:cACint209_L6_BP_a6fb2fe3a5", 
+                "morphology": "C240300C1_-_Clone_31.asc"
+            }
+        ], 
+        "cNAC": [
+            {
+                "model_directory": "L6_BP_cNAC187_2", 
+                "model_template": "BBP:cNAC187_L6_BP_46b0f41def", 
+                "morphology": "C240300C1_-_Clone_30.asc"
+            }, 
+            {
+                "model_directory": "L6_BP_cNAC187_1", 
+                "model_template": "BBP:cNAC187_L6_BP_b022a66bd2", 
+                "morphology": "C240300C1_-_Clone_15.asc"
+            }
+        ], 
+        "dSTUT": [
+            {
+                "model_directory": "L6_BP_dSTUT214_2", 
+                "model_template": "BBP:dSTUT214_L6_BP_b9592b27fd", 
+                "morphology": "C240300C1_-_Clone_57.asc"
+            }, 
+            {
+                "model_directory": "L6_BP_dSTUT214_1", 
+                "model_template": "BBP:dSTUT214_L6_BP_be00ceca27", 
+                "morphology": "C240300C1_-_Scale_x1.000_y1.050_z1.000_-_Clone_12.asc"
+            }
+        ]
+    }, 
+    "L6_BPC": {
+        "cADpyr": [
+            {
+                "model_directory": "L6_BPC_cADpyr231_2", 
+                "model_template": "BBP:cADpyr231_L6_BPC_4e9a9465d3", 
+                "morphology": "dend-tkb060329a1_ch4_cl_o_db_60x_1_axon-Fluo42_right_-_Clone_0.asc"
+            }, 
+            {
+                "model_directory": "L6_BPC_cADpyr231_1", 
+                "model_template": "BBP:cADpyr231_L6_BPC_05f7073f5f", 
+                "morphology": "dend-tkb061006a2_ch0_cl_h_zk_60x_0_axon-tkb060329a1_ch4_cl_o_db_60x_1.asc"
+            }
+        ]
+    }, 
+    "L6_BTC": {
+        "bAC": [
+            {
+                "model_directory": "L6_BTC_bAC217_2", 
+                "model_template": "BBP:bAC217_L6_BTC_459ef88946", 
+                "morphology": "og060523b1-2_idD_-_Scale_x1.000_y0.975_z1.000_-_Clone_11.asc"
+            }, 
+            {
+                "model_directory": "L6_BTC_bAC217_1", 
+                "model_template": "BBP:bAC217_L6_BTC_9e335e53f6", 
+                "morphology": "og060523b1-2_idD_-_Scale_x1.000_y1.050_z1.000_-_Clone_1.asc"
+            }
+        ], 
+        "cAC": [
+            {
+                "model_directory": "L6_BTC_cACint209_2", 
+                "model_template": "BBP:cACint209_L6_BTC_bc69dce0ae", 
+                "morphology": "og060523b1-2_idD_-_Scale_x1.000_y0.950_z1.000_-_Clone_14.asc"
+            }, 
+            {
+                "model_directory": "L6_BTC_cACint209_1", 
+                "model_template": "BBP:cACint209_L6_BTC_045fb87685", 
+                "morphology": "og060523b1-2_idD_-_Scale_x1.000_y0.975_z1.000_-_Clone_12.asc"
+            }
+        ], 
+        "cNAC": [
+            {
+                "model_directory": "L6_BTC_cNAC187_2", 
+                "model_template": "BBP:cNAC187_L6_BTC_844c3bba88", 
+                "morphology": "og060523b1-2_idD_-_Scale_x1.000_y0.950_z1.000_-_Clone_6.asc"
+            }, 
+            {
+                "model_directory": "L6_BTC_cNAC187_1", 
+                "model_template": "BBP:cNAC187_L6_BTC_c021ea90e3", 
+                "morphology": "og060523b1-2_idD_-_Clone_9.asc"
+            }
+        ]
+    }, 
+    "L6_ChC": {
+        "cAC": [
+            {
+                "model_directory": "L6_ChC_cACint209_1", 
+                "model_template": "BBP:cACint209_L6_ChC_9cc7bcef1d", 
+                "morphology": "C091000D-I3_-_Scale_x1.000_y1.025_z1.000_-_Clone_11.asc"
+            }, 
+            {
+                "model_directory": "L6_ChC_cACint209_2", 
+                "model_template": "BBP:cACint209_L6_ChC_9060a4c27e", 
+                "morphology": "mtC070301B_idC_-_Scale_x1.000_y0.950_z1.000_-_Clone_2.asc"
+            }
+        ], 
+        "cNAC": [
+            {
+                "model_directory": "L6_ChC_cNAC187_1", 
+                "model_template": "BBP:cNAC187_L6_ChC_a3c657441e", 
+                "morphology": "C091000D-I3_-_Clone_3.asc"
+            }, 
+            {
+                "model_directory": "L6_ChC_cNAC187_2", 
+                "model_template": "BBP:cNAC187_L6_ChC_b51988187a", 
+                "morphology": "mtC070301B_idC_-_Scale_x1.000_y1.025_z1.000_-_Clone_9.asc"
+            }
+        ], 
+        "dNAC": [
+            {
+                "model_directory": "L6_ChC_dNAC222_1", 
+                "model_template": "BBP:dNAC222_L6_ChC_ac94876fe9", 
+                "morphology": "C091000D-I3_-_Scale_x1.000_y0.950_z1.000_-_Clone_4.asc"
+            }, 
+            {
+                "model_directory": "L6_ChC_dNAC222_2", 
+                "model_template": "BBP:dNAC222_L6_ChC_9060a4c27e", 
+                "morphology": "mtC070301B_idC_-_Scale_x1.000_y0.950_z1.000_-_Clone_2.asc"
+            }
+        ]
+    }, 
+    "L6_DBC": {
+        "bAC": [
+            {
+                "model_directory": "L6_DBC_bAC217_1", 
+                "model_template": "BBP:bAC217_L6_DBC_2005a958c4", 
+                "morphology": "og060905b1-4_idA_-_Scale_x1.000_y0.950_z1.000.asc"
+            }, 
+            {
+                "model_directory": "L6_DBC_bAC217_2", 
+                "model_template": "BBP:bAC217_L6_DBC_3c23ead0b4", 
+                "morphology": "rp100428-12_idC_-_Clone_2.asc"
+            }
+        ], 
+        "bIR": [
+            {
+                "model_directory": "L6_DBC_bIR215_2", 
+                "model_template": "BBP:bIR215_L6_DBC_e3438da2c9", 
+                "morphology": "rp100428-12_idC_-_Scale_x1.000_y1.025_z1.000.asc"
+            }, 
+            {
+                "model_directory": "L6_DBC_bIR215_1", 
+                "model_template": "BBP:bIR215_L6_DBC_84d9723b18", 
+                "morphology": "og060905b1-4_idA_-_Scale_x1.000_y0.975_z1.000_-_Clone_0.asc"
+            }
+        ], 
+        "bNAC": [
+            {
+                "model_directory": "L6_DBC_bNAC219_2", 
+                "model_template": "BBP:bNAC219_L6_DBC_b8f064ed89", 
+                "morphology": "rp100428-12_idC_-_Scale_x1.000_y0.950_z1.000.asc"
+            }, 
+            {
+                "model_directory": "L6_DBC_bNAC219_1", 
+                "model_template": "BBP:bNAC219_L6_DBC_9daccafbcb", 
+                "morphology": "og060905b1-4_idA_-_Scale_x1.000_y1.025_z1.000.asc"
+            }
+        ], 
+        "bSTUT": [
+            {
+                "model_directory": "L6_DBC_bSTUT213_2", 
+                "model_template": "BBP:bSTUT213_L6_DBC_4765d943f4", 
+                "morphology": "rp100428-12_idC_-_Scale_x1.000_y1.025_z1.000_-_Clone_1.asc"
+            }, 
+            {
+                "model_directory": "L6_DBC_bSTUT213_1", 
+                "model_template": "BBP:bSTUT213_L6_DBC_ed383a5814", 
+                "morphology": "og060905b1-4_idA_-_Scale_x1.000_y1.025_z1.000_-_Clone_0.asc"
+            }
+        ], 
+        "cAC": [
+            {
+                "model_directory": "L6_DBC_cACint209_2", 
+                "model_template": "BBP:cACint209_L6_DBC_d59edbb45e", 
+                "morphology": "tkb071114a2_ch4_mc_n_db_100x_1_-_Scale_x1.000_y1.050_z1.000_-_Clone_0.asc"
+            }, 
+            {
+                "model_directory": "L6_DBC_cACint209_1", 
+                "model_template": "BBP:cACint209_L6_DBC_e432520e46", 
+                "morphology": "og060905b1-4_idA_-_Clone_0.asc"
+            }
+        ], 
+        "cIR": [
+            {
+                "model_directory": "L6_DBC_cIR216_2", 
+                "model_template": "BBP:cIR216_L6_DBC_9e6b867e51", 
+                "morphology": "rp100428-12_idI_-_Scale_x1.000_y1.025_z1.000_-_Clone_3.asc"
+            }, 
+            {
+                "model_directory": "L6_DBC_cIR216_1", 
+                "model_template": "BBP:cIR216_L6_DBC_f7446db64e", 
+                "morphology": "og060905b1-4_idA_-_Scale_x1.000_y0.950_z1.000_-_Clone_0.asc"
+            }
+        ], 
+        "cNAC": [
+            {
+                "model_directory": "L6_DBC_cNAC187_2", 
+                "model_template": "BBP:cNAC187_L6_DBC_2bb1f65738", 
+                "morphology": "rp100428-12_idC_-_Scale_x1.000_y0.975_z1.000_-_Clone_0.asc"
+            }, 
+            {
+                "model_directory": "L6_DBC_cNAC187_1", 
+                "model_template": "BBP:cNAC187_L6_DBC_d59edbb45e", 
+                "morphology": "tkb071114a2_ch4_mc_n_db_100x_1_-_Scale_x1.000_y1.050_z1.000_-_Clone_0.asc"
+            }
+        ]
+    }, 
+    "L6_IPC": {
+        "cADpyr": [
+            {
+                "model_directory": "L6_IPC_cADpyr231_2", 
+                "model_template": "BBP:cADpyr231_L6_IPC_8d0f3a7d2e", 
+                "morphology": "dend-tkb061126a2_ch1_cc1_h_zk_60x_1_axon-tkb060531a2_ch1_cc1_b_yw_60x_1_-_Scale_x1.000_y1.025_z1.000_-_Clone_6.asc"
+            }, 
+            {
+                "model_directory": "L6_IPC_cADpyr231_1", 
+                "model_template": "BBP:cADpyr231_L6_IPC_c95b8bde99", 
+                "morphology": "dend-tkb060118b1_ch1_cc1_b_yw_60x_1_axon-tkb061213a2_ch1_cc1_h_zk_60x_1_-_Scale_x1.000_y1.025_z1.000_-_Clone_4.asc"
+            }
+        ]
+    }, 
+    "L6_LBC": {
+        "bAC": [
+            {
+                "model_directory": "L6_LBC_bAC217_2", 
+                "model_template": "BBP:bAC217_L6_LBC_2571ecba02", 
+                "morphology": "og060822a1-2_idB_-_Scale_x1.000_y1.050_z1.000_-_Clone_0.asc"
+            }, 
+            {
+                "model_directory": "L6_LBC_bAC217_1", 
+                "model_template": "BBP:bAC217_L6_LBC_5d73327936", 
+                "morphology": "og060810a8_011807_ch5_BC_o_NR_60x_0_-_Scale_x1.000_y0.975_z1.000_-_Clone_5.asc"
+            }
+        ], 
+        "bIR": [
+            {
+                "model_directory": "L6_LBC_bIR215_1", 
+                "model_template": "BBP:bIR215_L6_LBC_f0665c9d1a", 
+                "morphology": "og060810a8_011807_ch5_BC_o_NR_60x_0_-_Scale_x1.000_y1.025_z1.000_-_Clone_3.asc"
+            }, 
+            {
+                "model_directory": "L6_LBC_bIR215_2", 
+                "model_template": "BBP:bIR215_L6_LBC_05f55c6541", 
+                "morphology": "og060822a1-2_idB_-_Clone_2.asc"
+            }
+        ], 
+        "bNAC": [
+            {
+                "model_directory": "L6_LBC_bNAC219_2", 
+                "model_template": "BBP:bNAC219_L6_LBC_9f176c343a", 
+                "morphology": "og061201a1-8_idE_-_Scale_x1.000_y1.050_z1.000_-_Clone_0.asc"
+            }, 
+            {
+                "model_directory": "L6_LBC_bNAC219_1", 
+                "model_template": "BBP:bNAC219_L6_LBC_0491f28d21", 
+                "morphology": "tkb061101a2_ch2_bc_h_zk_60x_1_-_Scale_x1.000_y1.050_z1.000_-_Clone_6.asc"
+            }
+        ], 
+        "bSTUT": [
+            {
+                "model_directory": "L6_LBC_bSTUT213_2", 
+                "model_template": "BBP:bSTUT213_L6_LBC_b4f69c277d", 
+                "morphology": "tkb061020a1_ch5_bc_b_yw_60x_1_-_Scale_x1.000_y0.950_z1.000_-_Clone_4.asc"
+            }, 
+            {
+                "model_directory": "L6_LBC_bSTUT213_1", 
+                "model_template": "BBP:bSTUT213_L6_LBC_e36a750de6", 
+                "morphology": "tkb060127a1_ch1_bc_n_mp_100x_1_-_Scale_x1.000_y0.975_z1.000.asc"
+            }
+        ], 
+        "cNAC": [
+            {
+                "model_directory": "L6_LBC_cNAC187_2", 
+                "model_template": "BBP:cNAC187_L6_LBC_ae0d738c6e", 
+                "morphology": "og060921a_4_idB.asc"
+            }, 
+            {
+                "model_directory": "L6_LBC_cNAC187_1", 
+                "model_template": "BBP:cNAC187_L6_LBC_f9ea5d0925", 
+                "morphology": "og061201a6_ch5_bc_h_zk_60x_1_-_Scale_x1.000_y0.950_z1.000_-_Clone_4.asc"
+            }
+        ], 
+        "cSTUT": [
+            {
+                "model_directory": "L6_LBC_cSTUT189_1", 
+                "model_template": "BBP:cSTUT189_L6_LBC_530a402f3f", 
+                "morphology": "tkb061020b1_ch1_bc_b_yw_60x_1_-_Scale_x1.000_y1.050_z1.000_-_Clone_1.asc"
+            }, 
+            {
+                "model_directory": "L6_LBC_cSTUT189_2", 
+                "model_template": "BBP:cSTUT189_L6_LBC_040eb0bc59", 
+                "morphology": "og061201a6_ch5_bc_h_zk_60x_1_-_Scale_x1.000_y0.975_z1.000_-_Clone_0.asc"
+            }
+        ]
+    }, 
+    "L6_MC": {
+        "bAC": [
+            {
+                "model_directory": "L6_MC_bAC217_2", 
+                "model_template": "BBP:bAC217_L6_MC_38015c3bc0", 
+                "morphology": "tkb060509a2_ch3_mc_n_el_100x_1_-_Scale_x1.000_y1.025_z1.000.asc"
+            }, 
+            {
+                "model_directory": "L6_MC_bAC217_1", 
+                "model_template": "BBP:bAC217_L6_MC_d379cda689", 
+                "morphology": "tkb060508c1_ch3_mc_n_tb_100x_2.asc"
+            }
+        ], 
+        "bIR": [
+            {
+                "model_directory": "L6_MC_bIR215_1", 
+                "model_template": "BBP:bIR215_L6_MC_6ed36072e7", 
+                "morphology": "rp110120_L5-3_idE.asc"
+            }, 
+            {
+                "model_directory": "L6_MC_bIR215_2", 
+                "model_template": "BBP:bIR215_L6_MC_d379cda689", 
+                "morphology": "tkb060508c1_ch3_mc_n_tb_100x_2.asc"
+            }
+        ], 
+        "bNAC": [
+            {
+                "model_directory": "L6_MC_bNAC219_2", 
+                "model_template": "BBP:bNAC219_L6_MC_d379cda689", 
+                "morphology": "tkb060508c1_ch3_mc_n_tb_100x_2.asc"
+            }, 
+            {
+                "model_directory": "L6_MC_bNAC219_1", 
+                "model_template": "BBP:bNAC219_L6_MC_5597e4d536", 
+                "morphology": "tkb071112b1-3_idC.asc"
+            }
+        ], 
+        "bSTUT": [
+            {
+                "model_directory": "L6_MC_bSTUT213_2", 
+                "model_template": "BBP:bSTUT213_L6_MC_d379cda689", 
+                "morphology": "tkb060508c1_ch3_mc_n_tb_100x_2.asc"
+            }, 
+            {
+                "model_directory": "L6_MC_bSTUT213_1", 
+                "model_template": "BBP:bSTUT213_L6_MC_e8d04feaa6", 
+                "morphology": "og060805a1_ch5_mc_n_nb_100x_1.asc"
+            }
+        ], 
+        "cAC": [
+            {
+                "model_directory": "L6_MC_cACint209_1", 
+                "model_template": "BBP:cACint209_L6_MC_0686f3517c", 
+                "morphology": "og060602a2_ch7_mc_n_nb_100x_1_-_Scale_x1.000_y1.025_z1.000.asc"
+            }, 
+            {
+                "model_directory": "L6_MC_cACint209_2", 
+                "model_template": "BBP:cACint209_L6_MC_df869132b9", 
+                "morphology": "tkb061101a1_ch6_mc_h_zk_60x_1.asc"
+            }
+        ], 
+        "cIR": [
+            {
+                "model_directory": "L6_MC_cIR216_2", 
+                "model_template": "BBP:cIR216_L6_MC_a405be0ec4", 
+                "morphology": "og060602a2_ch7_mc_n_nb_100x_1.asc"
+            }, 
+            {
+                "model_directory": "L6_MC_cIR216_1", 
+                "model_template": "BBP:cIR216_L6_MC_dc1f55aab0", 
+                "morphology": "C070301B2.asc"
+            }
+        ], 
+        "cNAC": [
+            {
+                "model_directory": "L6_MC_cNAC187_2", 
+                "model_template": "BBP:cNAC187_L6_MC_d379cda689", 
+                "morphology": "tkb060508c1_ch3_mc_n_tb_100x_2.asc"
+            }, 
+            {
+                "model_directory": "L6_MC_cNAC187_1", 
+                "model_template": "BBP:cNAC187_L6_MC_5597e4d536", 
+                "morphology": "tkb071112b1-3_idC.asc"
+            }
+        ]
+    }, 
+    "L6_NBC": {
+        "bAC": [
+            {
+                "model_directory": "L6_NBC_bAC217_1", 
+                "model_template": "BBP:bAC217_L6_NBC_35ea10d24d", 
+                "morphology": "og060829a1-4_idE_-_Scale_x1.000_y1.050_z1.000_-_Clone_3.asc"
+            }, 
+            {
+                "model_directory": "L6_NBC_bAC217_2", 
+                "model_template": "BBP:bAC217_L6_NBC_3fc0dff69e", 
+                "morphology": "og060906a1-4_idE_-_Scale_x1.000_y1.050_z1.000.asc"
+            }
+        ], 
+        "bIR": [
+            {
+                "model_directory": "L6_NBC_bIR215_1", 
+                "model_template": "BBP:bIR215_L6_NBC_8c6aecf604", 
+                "morphology": "og060829a1-4_idE_-_Scale_x1.000_y1.050_z1.000.asc"
+            }, 
+            {
+                "model_directory": "L6_NBC_bIR215_2", 
+                "model_template": "BBP:bIR215_L6_NBC_a104961d30", 
+                "morphology": "tkb060508a2_ch5_bc_h_zk_60x_1_-_Scale_x1.000_y1.025_z1.000_-_Clone_2.asc"
+            }
+        ], 
+        "bSTUT": [
+            {
+                "model_directory": "L6_NBC_bSTUT213_1", 
+                "model_template": "BBP:bSTUT213_L6_NBC_91e841ee63", 
+                "morphology": "og060829a1-4_idE_-_Scale_x1.000_y0.950_z1.000_-_Clone_6.asc"
+            }, 
+            {
+                "model_directory": "L6_NBC_bSTUT213_2", 
+                "model_template": "BBP:bSTUT213_L6_NBC_a3ddbb0af0", 
+                "morphology": "rp110121_L5-2_idF_-_Scale_x1.000_y0.950_z1.000_-_Clone_3.asc"
+            }
+        ], 
+        "cAC": [
+            {
+                "model_directory": "L6_NBC_cACint209_1", 
+                "model_template": "BBP:cACint209_L6_NBC_0de57faa51", 
+                "morphology": "og060829a1-4_idE_-_Scale_x1.000_y0.975_z1.000_-_Clone_2.asc"
+            }, 
+            {
+                "model_directory": "L6_NBC_cACint209_2", 
+                "model_template": "BBP:cACint209_L6_NBC_a3972c5d97", 
+                "morphology": "og060906a1-4_idE_-_Scale_x1.000_y1.050_z1.000_-_Clone_5.asc"
+            }
+        ], 
+        "cIR": [
+            {
+                "model_directory": "L6_NBC_cIR216_2", 
+                "model_template": "BBP:cIR216_L6_NBC_656e1c0a2d", 
+                "morphology": "tkb060508a2_ch5_bc_h_zk_60x_1_-_Scale_x1.000_y1.050_z1.000_-_Clone_0.asc"
+            }, 
+            {
+                "model_directory": "L6_NBC_cIR216_1", 
+                "model_template": "BBP:cIR216_L6_NBC_38e0d4fd81", 
+                "morphology": "og060829a1-4_idE_-_Scale_x1.000_y1.025_z1.000_-_Clone_0.asc"
+            }
+        ], 
+        "cNAC": [
+            {
+                "model_directory": "L6_NBC_cNAC187_2", 
+                "model_template": "BBP:cNAC187_L6_NBC_96f68bef66", 
+                "morphology": "rp110121_L5-2_idF_-_Scale_x1.000_y0.950_z1.000_-_Clone_6.asc"
+            }, 
+            {
+                "model_directory": "L6_NBC_cNAC187_1", 
+                "model_template": "BBP:cNAC187_L6_NBC_777b9bec91", 
+                "morphology": "og060829a1-4_idE_-_Scale_x1.000_y0.950_z1.000.asc"
+            }
+        ], 
+        "cSTUT": [
+            {
+                "model_directory": "L6_NBC_cSTUT189_1", 
+                "model_template": "BBP:cSTUT189_L6_NBC_63dc8fdbb5", 
+                "morphology": "rp110120_L5-3_idD_-_Scale_x1.000_y1.025_z1.000_-_Clone_5.asc"
+            }, 
+            {
+                "model_directory": "L6_NBC_cSTUT189_2", 
+                "model_template": "BBP:cSTUT189_L6_NBC_55825b9e30", 
+                "morphology": "tkb050507a1_ch1_bc_b_yw_60x_1_-_Clone_6.asc"
+            }
+        ], 
+        "dSTUT": [
+            {
+                "model_directory": "L6_NBC_dSTUT214_2", 
+                "model_template": "BBP:dSTUT214_L6_NBC_73114eff1a", 
+                "morphology": "rp110120_L5-3_idD_-_Scale_x1.000_y0.950_z1.000_-_Clone_5.asc"
+            }, 
+            {
+                "model_directory": "L6_NBC_dSTUT214_1", 
+                "model_template": "BBP:dSTUT214_L6_NBC_750f7ba17d", 
+                "morphology": "tkb050507a1_ch1_bc_b_yw_60x_1_-_Scale_x1.000_y0.975_z1.000_-_Clone_4.asc"
+            }
+        ]
+    }, 
+    "L6_NGC": {
+        "bNAC": [
+            {
+                "model_directory": "L6_NGC_bNAC219_2", 
+                "model_template": "BBP:bNAC219_L6_NGC_982f5b1a82", 
+                "morphology": "rp110125_L5-2_idA_-_Scale_x1.000_y0.950_z1.000_-_Clone_37.asc"
+            }, 
+            {
+                "model_directory": "L6_NGC_bNAC219_1", 
+                "model_template": "BBP:bNAC219_L6_NGC_72634352c5", 
+                "morphology": "rp110125_L5-2_idA_-_Clone_18.asc"
+            }
+        ], 
+        "cAC": [
+            {
+                "model_directory": "L6_NGC_cACint209_2", 
+                "model_template": "BBP:cACint209_L6_NGC_48dc33e388", 
+                "morphology": "rp110125_L5-2_idA_-_Scale_x1.000_y0.975_z1.000_-_Clone_4.asc"
+            }, 
+            {
+                "model_directory": "L6_NGC_cACint209_1", 
+                "model_template": "BBP:cACint209_L6_NGC_913febfa36", 
+                "morphology": "rp110125_L5-2_idA_-_Scale_x1.000_y0.950_z1.000_-_Clone_40.asc"
+            }
+        ], 
+        "cNAC": [
+            {
+                "model_directory": "L6_NGC_cNAC187_1", 
+                "model_template": "BBP:cNAC187_L6_NGC_aa5e388292", 
+                "morphology": "rp110125_L5-2_idA_-_Scale_x1.000_y1.025_z1.000_-_Clone_24.asc"
+            }, 
+            {
+                "model_directory": "L6_NGC_cNAC187_2", 
+                "model_template": "BBP:cNAC187_L6_NGC_b77f2e2b21", 
+                "morphology": "rp110125_L5-2_idA_-_Scale_x1.000_y0.975_z1.000_-_Clone_14.asc"
+            }
+        ], 
+        "cSTUT": [
+            {
+                "model_directory": "L6_NGC_cSTUT189_2", 
+                "model_template": "BBP:cSTUT189_L6_NGC_a138b95b10", 
+                "morphology": "rp110125_L5-2_idA_-_Clone_19.asc"
+            }, 
+            {
+                "model_directory": "L6_NGC_cSTUT189_1", 
+                "model_template": "BBP:cSTUT189_L6_NGC_ed011e4f05", 
+                "morphology": "rp110125_L5-2_idA_-_Clone_34.asc"
+            }
+        ]
+    }, 
+    "L6_SBC": {
+        "bNAC": [
+            {
+                "model_directory": "L6_SBC_bNAC219_1", 
+                "model_template": "BBP:bNAC219_L6_SBC_6c1acec83a", 
+                "morphology": "rp100428-12_idK_-_Scale_x1.000_y0.975_z1.000_-_Clone_7.asc"
+            }, 
+            {
+                "model_directory": "L6_SBC_bNAC219_2", 
+                "model_template": "BBP:bNAC219_L6_SBC_fb9380858b", 
+                "morphology": "rp110120_L5-4_idB_-_Scale_x1.000_y1.050_z1.000.asc"
+            }
+        ], 
+        "cAC": [
+            {
+                "model_directory": "L6_SBC_cACint209_2", 
+                "model_template": "BBP:cACint209_L6_SBC_1994e395b2", 
+                "morphology": "rp110125_L5-1_idC_-_Scale_x1.000_y1.025_z1.000_-_Clone_4.asc"
+            }, 
+            {
+                "model_directory": "L6_SBC_cACint209_1", 
+                "model_template": "BBP:cACint209_L6_SBC_6c406e9f09", 
+                "morphology": "rp100428-12_idK_-_Scale_x1.000_y0.950_z1.000_-_Clone_2.asc"
+            }
+        ], 
+        "dNAC": [
+            {
+                "model_directory": "L6_SBC_dNAC222_2", 
+                "model_template": "BBP:dNAC222_L6_SBC_fb9380858b", 
+                "morphology": "rp110120_L5-4_idB_-_Scale_x1.000_y1.050_z1.000.asc"
+            }, 
+            {
+                "model_directory": "L6_SBC_dNAC222_1", 
+                "model_template": "BBP:dNAC222_L6_SBC_846dc20ea0", 
+                "morphology": "rp100428-12_idK_-_Scale_x1.000_y0.975_z1.000_-_Clone_2.asc"
+            }
+        ]
+    }, 
+    "L6_TPC_L1": {
+        "cADpyr": [
+            {
+                "model_directory": "L6_TPC_L1_cADpyr231_1", 
+                "model_template": "BBP:cADpyr231_L6_TPC_L1_68efb03f39", 
+                "morphology": "dend-C301101A1_axon-tkb070125a3_ch1_cc2_b_hw_60x_1_-_Clone_4.asc"
+            }, 
+            {
+                "model_directory": "L6_TPC_L1_cADpyr231_2", 
+                "model_template": "BBP:cADpyr231_L6_TPC_L1_1856ba2db5", 
+                "morphology": "dend-tkb070125a3_ch1_cc2_b_hw_60x_1_axon-tkb060510b1_ch1_cc2_n_db_60x_1_-_Clone_0.asc"
+            }
+        ]
+    }, 
+    "L6_TPC_L4": {
+        "cADpyr": [
+            {
+                "model_directory": "L6_TPC_L4_cADpyr231_1", 
+                "model_template": "BBP:cADpyr231_L6_TPC_L4_3f1b0bd478", 
+                "morphology": "dend-tkb061126a4_ch0_cc2_h_zk_60x_1_axon-tkb071119a1_ch8_cc2_n_db_100x_1_-_Clone_0.asc"
+            }, 
+            {
+                "model_directory": "L6_TPC_L4_cADpyr231_2", 
+                "model_template": "BBP:cADpyr231_L6_TPC_L4_0cb1e9aa6b", 
+                "morphology": "dend-tkb061126a4_ch0_cc2_h_zk_60x_1_axon-tkb061126a4_ch0_cc2_h_zk_60x_1_-_Clone_5.asc"
+            }
+        ]
+    }, 
+    "L6_UTPC": {
+        "cADpyr": [
+            {
+                "model_directory": "L6_UTPC_cADpyr231_1", 
+                "model_template": "BBP:cADpyr231_L6_UTPC_295f0e6025", 
+                "morphology": "dend-tkb061126a3_ch0_cc2_h_zk_60x_1_axon-Fluo12_right_-_Clone_4.asc"
+            }, 
+            {
+                "model_directory": "L6_UTPC_cADpyr231_2", 
+                "model_template": "BBP:cADpyr231_L6_UTPC_15731e5081", 
+                "morphology": "dend-tkb061126a3_ch0_cc2_h_zk_60x_1_axon-tkb061126a3_ch0_cc2_h_zk_60x_1_-_Clone_12.asc"
+            }
+        ]
+    }
+}

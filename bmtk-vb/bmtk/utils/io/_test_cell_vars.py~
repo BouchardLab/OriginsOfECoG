@@ -1,0 +1,3 @@
+from bmtk.builder.nerworks import NetworkBuilder
+
+# in cortical-column (add to PYTHONPATH)

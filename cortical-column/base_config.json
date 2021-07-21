@@ -1,0 +1,103 @@
+{
+    "__COMMENT__": "Base configuration options. Override with ./host_config.json and/or command line options to configure.py",
+    "manifest": {
+	"$NETWORK_DIR": "PLACEHOLDER (SEE configure.py)",
+	"$OUTPUT_DIR": "PLACEHOLDER (SEE configure.py)", 
+	"$COMPONENTS_DIR": "components"
+    }, 
+    "target_simulator": "BioNet", 
+    "run": {
+	"dL": 20, 
+	"nsteps_block": 1000, 
+	"spike_threshold": -10, 
+	"overwrite_output_dir": true, 
+	"tstop": 2500.0, 
+	"dt": 0.1,
+	"calc_ecp": true
+    }, 
+    "conditions": {
+	"celsius": 34.0, 
+	"v_init": -60,
+        "cao0": 2.0
+    }, 
+    "inputs": {
+	"ext_spikes": {
+	    "input_type": "spikes",
+	    "module": "csv",
+	    "input_file": "${NETWORK_DIR}/thalamus_spikes.csv",
+	    "node_set": "thalamus"
+	},
+	"bkg_spikes": {
+	    "input_type": "spikes",
+	    "module": "csv",
+	    "input_file": "${NETWORK_DIR}/bkg_spikes.csv",
+	    "node_set": "bkg"
+	}
+    }, 
+    "components": {
+	"morphologies_dir": "${COMPONENTS_DIR}/biophysical/morphology", 
+	"point_neuron_models_dir": "${COMPONENTS_DIR}/intfire", 
+	"templates_dir": "${COMPONENTS_DIR}/hoc_templates", 
+	"biophysical_neuron_models_dir": "${COMPONENTS_DIR}/biophysical/electrophysiology", 
+	"mechanisms_dir": "${COMPONENTS_DIR}/mechanisms", 
+	"synaptic_models_dir": "${COMPONENTS_DIR}/synaptic_models"
+    }, 
+    "output": {
+	"spikes_file_csv": "spikes.csv", 
+	"spikes_file": "spikes.h5",
+	"log_file": "log.txt", 
+	"output_dir": "${OUTPUT_DIR}"
+    }, 
+    "reports": {
+	"membrane_current": {
+	    "file_name": "im.h5", 
+	    "cells": "all",
+	    "sections": "all", 
+	    "module": "section_report", 
+	    "variable_name": ["im"]
+	},
+        "membrane_potential": {
+	    "file_name": "cell_vars.h5", 
+	    "cells": "all",
+	    "sections": "soma", 
+	    "module": "membrane_report", 
+	    "variable_name": ["v"]
+	}
+    }, 
+    "networks": {
+	"nodes": [
+	    {
+		"node_types_file": "${NETWORK_DIR}/cortical_column_node_types.csv", 
+		"nodes_file": "${NETWORK_DIR}/cortical_column_nodes.h5", 
+		"name": "cortical_column"
+	    },
+	    {
+		"node_types_file": "${NETWORK_DIR}/thalamus_node_types.csv", 
+		"nodes_file": "${NETWORK_DIR}/thalamus_nodes.h5", 
+		"name": "thalamus"
+	    },
+	    {
+		"node_types_file": "${NETWORK_DIR}/bkg_node_types.csv", 
+		"nodes_file": "${NETWORK_DIR}/bkg_nodes.h5", 
+		"name": "bkg"
+	    }
+	], 
+	"edges": [
+	    {
+		"edges_file": "${NETWORK_DIR}/cortical_column_cortical_column_edges.h5",
+		"name": "cortical_column_cortical_column",
+		"edge_types_file": "${NETWORK_DIR}/cortical_column_cortical_column_edge_types.csv"
+	    },
+	    {
+		"edges_file": "${NETWORK_DIR}/thalamus_cortical_column_edges.h5", 
+		"name": "thalamus_cortical_column", 
+		"edge_types_file": "${NETWORK_DIR}/thalamus_cortical_column_edge_types.csv"
+	    },
+	    {
+		"edges_file": "${NETWORK_DIR}/bkg_cortical_column_edges.h5", 
+		"name": "bkg_cortical_column", 
+		"edge_types_file": "${NETWORK_DIR}/bkg_cortical_column_edge_types.csv"
+	    }
+	]
+    }
+}
