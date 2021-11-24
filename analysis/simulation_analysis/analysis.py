@@ -18,7 +18,7 @@ class BasePlotter(object):
             channel=None, stim_i=None, tstart=None, tstop=None,
             figsize=None, ax=None,
             color=None, linewidth=None, label=None, nosave=False, show=False,
-            is_expt=False, nwb=None,
+            is_expt=False, nwb=None, write=False
     ):
         """
         identifier - appended to filename
@@ -37,7 +37,8 @@ class BasePlotter(object):
         self.tstart = tstart
         self.tstop = tstop
         self.is_expt = is_expt
-
+        self.write = write
+        
         # TODO: remove?
         self.nosave = nosave
         self.show = show
@@ -154,12 +155,15 @@ class BasePlotter(object):
         
     def run(self):
         self.do_plots()
+        
+        if self.write:            
+            # write additions to nwb file
 
 
 class PlotterArgParser(ArgumentParser):
     kwarg_fields = [
         'tstart', 'tstop', 'stim_i', 'identifier', 'filetype', 'nosave', 'show',
-        'proc_dset_name', 'auxfile',
+        'proc_dset_name', 'auxfile', 'write'
     ]
     def __init__(self, *args, **kwargs):
         super(PlotterArgParser, self).__init__(*args, **kwargs)
@@ -177,6 +181,7 @@ class PlotterArgParser(ArgumentParser):
         self.add_argument('--filetype', '--extension', '--ext', required=False, default='pdf')
         self.add_argument('--nosave', default=False, action='store_true')
         self.add_argument('--show', default=False, action='store_true')
+        self.add_argument('--write', default=False, action='write spectrum to nwb')
 
     @property
     def kwargs(self):

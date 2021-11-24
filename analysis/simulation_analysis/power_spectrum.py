@@ -5,6 +5,8 @@ z-scored power spectrum during peak Hg response
 import os
 import numpy as np
 import matplotlib.pyplot as plt
+from pynwb import ProcessingModule
+from pynwb.misc import DecompositionSeries
 
 from analysis import BasePlotter, PlotterArgParser
 
@@ -207,8 +209,38 @@ class PowerSpectrum(BasePlotter):
 
         if self.show:
             plt.show()
+        
+        if self.write:
+            self.write_spectrum_to_nwb(spectrum, band_means, channel)
 
         return band_means, spectrum, errors
+    
+    def write_spectrum_to_nwb(self, spectrum, freqs, ch):
+        """Writes one channel average spectrum to nwb (if channel 0 then also writes frequencies)
+        """        
+        # simplier approach -- write to scratch
+        self.nwb.add_scratch(spectrum, name=f'spectrum_ch_{str(ch)}', notes=f'power spectrum for channel {str(ch)}')
+        
+        if ch == 0:
+            self.nwb.add_scratch(freqs, name=f'freqs', notes='Spectrum frequencies')
+            
+        
+        # writing to processing module (WIP)
+        # try:
+        #     spectrum_module = self.nwb.processing['Hilb_54bands_spectrum']
+        # except KeyError:
+        #     #create a spectrum module
+        #     spectrum_module = ProcessingModule(name='Hilb_54bands_spectrum', description='Power spectrum')
+        #     self.nwb.add_processing_module(spectrum_module)
+            
+        # ds = DecompositionSeries(name=f'ch_{str(ch)}',
+        #                          data=spectrum,
+        #                          description= f'Spectrum for channel {str(ch)}',
+        #                          metric=None, #add something
+        #                          bands=freqs) #needs to be dynamic table
+        # spectrum_module.add_data_interface(ds)
+        
+        return 1
 
 
     def plot_one_layer_ei(self, layer, ei, contrib_or_lesion, **plot_args):
@@ -308,9 +340,20 @@ class PowerSpectrumRatio(PowerSpectrum):
         final_plot_args.update(plot_args)
         plt.plot(f, diff, **final_plot_args)
         
-if __name__ == '__main__':
-    parser = PlotterArgParser()
-    args = parser.parse_args()
+# if __name__ == '__main__':
+#     parser = PlotterArgParser()
+#     args = parser.parse_args()
 
-    analysis = PowerSpectrumRatio(args.nwbfile, args.outdir, **parser.kwargs)
+#     analysis = PowerSpectrumRatio(args.nwbfile, args.outdir, **parser.kwargs)
+#     analysis.run()
+
+if __name__ == '__main__':
+    # parser = PlotterArgParser()
+    # args = parser.parse_args()
+    nwbfile = '/home/jhermiz/data/aer/OriginsOfECoG/ampl_vary_32hz.nwb'
+
+    #analysis = PowerSpectrumRatio(args.nwbfile, args.outdir, **parser.kwargs)
+    analysis = PowerSpectrumRatio(nwbfile, '.', 
+                                  proc_dset_name='Hilb_54bands', 
+                                  write=True)
     analysis.run()
