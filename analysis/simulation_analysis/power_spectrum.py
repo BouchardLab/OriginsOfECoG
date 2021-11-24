@@ -30,7 +30,7 @@ def find_peak_signal(stim_data, rate, search_window=.005, avg_window=1, time_shi
     search = int(search_window * rate) # samples
     hg_signal = np.mean(stim_spectra[search+avg_window:-search-avg_window, :, 30:37], axis=-1) # 29:36?
     hg_maxes = np.argmax(hg_signal, axis=0) + search + avg_window # Max of the hg signal on each electrode
-    print("hg maxes", hg_maxes)
+    # print("hg maxes", hg_maxes)
 
     # Compute the average within the search window of the hg peaks
     avg_ampl_during_peak = np.zeros(shape=stim_spectra.shape[1:])
@@ -99,7 +99,7 @@ class PowerSpectrum(BasePlotter):
             hg_data = np.average(stim_data[:, :, hg_band_idx], axis=(0,2))
             max_i = np.argmax(hg_data)
             self.max_i = max_i
-            print(max_i)
+            # print(max_i)
             max_i += self.time_shift_samp
             assert max_i - hw > 0
 
@@ -211,19 +211,41 @@ class PowerSpectrum(BasePlotter):
             plt.show()
         
         if self.write:
-            self.write_spectrum_to_nwb(spectrum, band_means, channel)
+            self.write_spectrum_to_nwb(spectrum, band_means)
 
         return band_means, spectrum, errors
     
-    def write_spectrum_to_nwb(self, spectrum, freqs, ch):
-        """Writes one channel average spectrum to nwb (if channel 0 then also writes frequencies)
+    
+    def write_spectrum_to_folder(self, spectrum, freqs):
+        """Writes one channel average spectrum to a folder (if channel 0 then also writes frequencies)
         """        
+        ch = self.channel
         # simplier approach -- write to scratch
-        self.nwb.add_scratch(spectrum, name=f'spectrum_ch_{str(ch)}', notes=f'power spectrum for channel {str(ch)}')
+        path = os.path.join(os.path.split(self.nwbfile)[0], 'spectrum')
+        if not os.path.exists(path):
+            os.mkdir(path)
+        file = os.path.join(path, 'ch' + str(ch))
+        np.save(file, spectrum)
         
         if ch == 0:
-            self.nwb.add_scratch(freqs, name=f'freqs', notes='Spectrum frequencies')
+            file = os.path.join(path, 'freqs')
+            np.save(file, freqs)
+    
+    def write_spectrum_to_nwb(self, spectrum, freqs):
+        """Writes one channel average spectrum to nwb (if channel 0 then also writes frequencies)
+        """        
+        ch = self.channel
+        # simplier approach -- write to scratch
+        try:
+            self.nwb.add_scratch(spectrum, name=f'spectrum_ch_{str(ch)}', notes=f'power spectrum for channel {str(ch)}')
+        except ValueError:
+            print(f'Channel {str(ch)} already saved to file')
             
+        try:
+            if ch == 0:
+                self.nwb.add_scratch(freqs, name=f'freqs', notes='Spectrum frequencies')
+        except ValueError:
+            print(f'Frequencies already saved to file')            
         
         # writing to processing module (WIP)
         # try:
@@ -340,20 +362,22 @@ class PowerSpectrumRatio(PowerSpectrum):
         final_plot_args.update(plot_args)
         plt.plot(f, diff, **final_plot_args)
         
-# if __name__ == '__main__':
-#     parser = PlotterArgParser()
-#     args = parser.parse_args()
-
-#     analysis = PowerSpectrumRatio(args.nwbfile, args.outdir, **parser.kwargs)
-#     analysis.run()
-
 if __name__ == '__main__':
-    # parser = PlotterArgParser()
-    # args = parser.parse_args()
-    nwbfile = '/home/jhermiz/data/aer/OriginsOfECoG/ampl_vary_32hz.nwb'
-
-    #analysis = PowerSpectrumRatio(args.nwbfile, args.outdir, **parser.kwargs)
-    analysis = PowerSpectrumRatio(nwbfile, '.', 
-                                  proc_dset_name='Hilb_54bands', 
-                                  write=True)
+    parser = PlotterArgParser()
+    args = parser.parse_args()
+    
+    analysis = PowerSpectrumRatio(**vars(args))
     analysis.run()
+
+# for debugging purposes
+# if __name__ == '__main__':
+#     # parser = PlotterArgParser()
+#     # args = parser.parse_args()
+#     nwbfile = '/home/jhermiz/data/aer/OriginsOfECoG/ampl_vary_32hz.nwb'
+
+#     #analysis = PowerSpectrumRatio(args.nwbfile, args.outdir, **parser.kwargs)
+#     analysis = PowerSpectrumRatio(nwbfile, '.', 
+#                                   proc_dset_name='Hilb_54bands', 
+#                                   write=True,
+#                                   channel=5)
+#     analysis.run()

@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 class BasePlotter(object):
     def __init__(
             # TODO: remove outdir as an arg (saving should happen manually in the calling script)
-            self, nwbfile, outdir, mode='r', device='ECoG', auxfile=None,
+            self, nwbfile, outdir, mode='a', device='ECoG', auxfile=None,
             raw_dset_name='Raw', proc_dset_name='Hilb_54bands', block=None,
             filetype='pdf', identifier='', no_baseline_stats=False,
             channel=None, stim_i=None, tstart=None, tstop=None,
@@ -156,9 +156,11 @@ class BasePlotter(object):
     def run(self):
         self.do_plots()
         
-        if self.write:            
+        if self.write:        
             # write additions to nwb file
-
+            self.io.write(self.nwb)
+            self.io.close()
+            
 
 class PlotterArgParser(ArgumentParser):
     kwarg_fields = [
@@ -175,13 +177,13 @@ class PlotterArgParser(ArgumentParser):
         self.add_argument('--tstart', type=float, required=False, default=None)
         self.add_argument('--tstop', type=float, required=False, default=None)
         self.add_argument('--stim-i', type=int, required=False, default=None)
-        self.add_argument('--channel', type=int, required=False, default=None)
+        self.add_argument('--channel', type=int, required=False, default=None) #channel doesn't do anything as far a I can tell...
         self.add_argument('--identifier', type=str, required=False, default='',
                           help='append this string to filename')
         self.add_argument('--filetype', '--extension', '--ext', required=False, default='pdf')
         self.add_argument('--nosave', default=False, action='store_true')
         self.add_argument('--show', default=False, action='store_true')
-        self.add_argument('--write', default=False, action='write spectrum to nwb')
+        self.add_argument('--write', default=True, action='store_true')
 
     @property
     def kwargs(self):
