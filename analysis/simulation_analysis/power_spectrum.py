@@ -92,7 +92,7 @@ class PowerSpectrum(BasePlotter):
             n_stim_timepts = stim_periods[0][1] - stim_periods[0][0]
             stim_data = np.zeros(shape=(len(stim_periods), n_stim_timepts, n_bands))
             for i, (t1, t2) in enumerate(stim_periods):
-                stim_data[i, :, :] = ch_data[t1:t1+n_stim_timepts, :]
+                stim_data[i, :, :] = ch_data[t1:t1+n_stim_timepts, :] #these are the individual trials
                 
             # Calculate max of average high gamma response
             # Average over stims, bands in hg range: time axis remains
@@ -103,7 +103,7 @@ class PowerSpectrum(BasePlotter):
             max_i += self.time_shift_samp
             assert max_i - hw > 0
 
-            # Average over stims, time: freq (bands) axis remainds
+            # Average over stims, time: freq (bands) axis remains
             spectrum = np.average(stim_data[:, max_i-hw:max_i+hw, :], axis=(0,1))
             errors = np.std(stim_data[:, max_i-hw:max_i+hw, :], axis=(0,1))
         else: # self.stim_i is an integer index
