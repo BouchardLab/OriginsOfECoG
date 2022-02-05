@@ -9,6 +9,7 @@ from argparse import ArgumentParser
 import numpy as np
 import matplotlib.pyplot as plt
 
+
 class BasePlotter(object):
     def __init__(
             # TODO: remove outdir as an arg (saving should happen manually in the calling script)
@@ -38,7 +39,7 @@ class BasePlotter(object):
         self.tstop = tstop
         self.is_expt = is_expt
         self.write = write
-        
+
         # TODO: remove?
         self.nosave = nosave
         self.show = show
@@ -56,17 +57,21 @@ class BasePlotter(object):
             self.io = NWBHDF5IO(self.nwbfile, mode)
             self.nwb = self.io.read()
 
-        
         if not no_baseline_stats:
             self.raw_bl_stats = self._compute_raw_baseline_stats()
             self.proc_bl_stats = self._compute_proc_baseline_stats()
 
     @property
     def proc_dset(self):
-        try:
+        try:  # attempt to read MARS processed data
+            # this will likely fail with wavelet data
             return self.nwb.modules[self.proc_dset_name].data_interfaces[self.device]
         except KeyError:
-            raise KeyError("Unable to read processed data from {} (probably needs to be preprocessed)".format(self.nwbfile))
+            try:  # try again for process_nwb processed data
+                return self.nwb.modules['preprocessing'][self.proc_dset_name]
+            except KeyError:
+                raise KeyError(
+                    "Unable to read processed data from {} (probably needs to be preprocessed)".format(self.nwbfile))
 
     @property
     def raw_dset(self):
@@ -75,12 +80,13 @@ class BasePlotter(object):
     @property
     def n_ch(self):
         return self.raw_dset.data.shape[1]
-        
+
     def do_plots(self):
         """subclasses override"""
         dset = self.proc_dset
         n_timepts, n_ch = dset.data.shape[:2]
         for i in range(n_ch):
+            print(f'Channel {i}')
             self.plot_one(i)
         plt.clf()
 
@@ -102,7 +108,8 @@ class BasePlotter(object):
         """
         trials = self.nwb.trials
         idxs = trials['sb'][:] == 's'
-        times = zip(trials['start_time'][idxs]-pre_dur, trials['stop_time'][idxs]+post_dur)
+        times = zip(trials['start_time'][idxs]-pre_dur,
+                    trials['stop_time'][idxs]+post_dur)
 
         if rate:
             return [(int(t[0]*rate), int(t[1]*rate)) for t in times]
@@ -116,8 +123,9 @@ class BasePlotter(object):
         """
         trials = self.nwb.trials
         bl_idxs = trials['sb'][:] == 'b'
-        times = zip(trials['start_time'][bl_idxs], trials['stop_time'][bl_idxs])
-        
+        times = zip(trials['start_time'][bl_idxs],
+                    trials['stop_time'][bl_idxs])
+
         if rate:
             return [(int(t[0]*rate), int(t[1]*rate)) for t in times]
         else:
@@ -143,44 +151,66 @@ class BasePlotter(object):
             idx = np.zeros(full_data.shape[0], dtype=bool)
             for t1, t2 in bl_periods:
                 idx[t1:t2] = True
-            bl_data = full_data[idx, ...]
+            bl_data = full_data[idx, ...]  # this line takes forever!
             bl_mean = np.average(bl_data, axis=0)
             bl_std = np.std(bl_data, axis=0)
+            # for debugging -- DELETE SOON!
+            # bl_mean = np.ones(full_data.shape[1:])
+            # bl_std = np.ones(full_data.shape[1:])
+            if len(bl_mean.flatten()) > 1000:
+                self.write_aux_file(bl_mean, bl_std)
             return (bl_mean, bl_std)
 
+    def write_aux_file(self, bl_mean, bl_std):
+        if self.auxfile is None:
+            # get file name without .nwb extensions
+            auxfile = os.path.split(self.nwbfile)[-1][:-4]
+            auxfile = auxfile + '_aux.h5'
+            self.auxfile = auxfile
+        with h5py.File(auxfile, 'w') as f:
+            f.create_dataset('bl_mu', data=bl_mean)
+            f.create_dataset('bl_std', data=bl_std)
+            print(f'Wrote baseline stats to {auxfile}')
+
     def get_bfs(self):
+        if self.auxfile is None:
+            print('Warning: no auxfile. Setting best frequencies, bfs=None')
+            return None
         with h5py.File(self.auxfile) as infile:
             return infile['/bf'][:]
 
-        
     def run(self):
         self.do_plots()
-        
-        if self.write:        
+
+        if self.write:
             # write additions to nwb file
             self.io.write(self.nwb)
             self.io.close()
-            
+
 
 class PlotterArgParser(ArgumentParser):
     kwarg_fields = [
         'tstart', 'tstop', 'stim_i', 'identifier', 'filetype', 'nosave', 'show',
         'proc_dset_name', 'auxfile', 'write'
     ]
+
     def __init__(self, *args, **kwargs):
         super(PlotterArgParser, self).__init__(*args, **kwargs)
         self.add_argument('--nwbfile', '--nwb', type=str, required=True)
-        self.add_argument('--auxfile', '--aux', type=str, required=False, default=None)
+        self.add_argument('--auxfile', '--aux', type=str,
+                          required=False, default=None)
         self.add_argument('--outdir', type=str, required=False, default='.')
         self.add_argument('--proc-dset-name', '--proc-dset', '--proc', type=str, required=False,
                           default='Hilb_54bands')
         self.add_argument('--tstart', type=float, required=False, default=None)
         self.add_argument('--tstop', type=float, required=False, default=None)
         self.add_argument('--stim-i', type=int, required=False, default=None)
-        self.add_argument('--channel', type=int, required=False, default=None) #channel doesn't do anything as far a I can tell...
+        # channel doesn't do anything as far a I can tell...
+        self.add_argument('--channel', type=int, required=False, default=None)
         self.add_argument('--identifier', type=str, required=False, default='',
                           help='append this string to filename')
-        self.add_argument('--filetype', '--extension', '--ext', required=False, default='pdf')
+        self.add_argument('--filetype', '--extension',
+                          '--ext', required=False, default='pdf')
         self.add_argument('--nosave', default=False, action='store_true')
         self.add_argument('--show', default=False, action='store_true')
         self.add_argument('--write', default=True, action='store_true')
